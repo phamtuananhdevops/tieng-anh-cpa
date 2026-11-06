@@ -286,7 +286,8 @@ module.exports = async function handler(req, res) {
   let messages = Array.isArray(body.messages)
     ? body.messages.filter(function (m) { return m && m.content; }) : [];
 
-  if (!messages.length && body.text) messages = [{ role: "user", content: String(body.text) }];
+  const q = body.text || body.message || body.question || body.prompt;
+    if (!messages.length && q) messages = [{ role: "user", content: String(q) }];
 
   if (!messages.length) {
     res.status(400).json({ ok: false, error: "Thiếu nội dung: gửi 'text' hoặc 'messages'." });
