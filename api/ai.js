@@ -128,7 +128,7 @@ async function callOpenAI(key, model, system, messages) {
     method: "POST",
     headers: { "content-type": "application/json", authorization: "Bearer " + key },
     body: JSON.stringify({
-      model: model || "gpt-4o-mini",
+      model: model || "gpt-4o",
       messages: [{ role: "system", content: system }].concat(messages),
       max_tokens: 1500
     })
