@@ -37,8 +37,9 @@ const DEFAULT_SYSTEM = [
 
   "Không bịa số liệu, đáp án hay lịch thi chưa xác minh.",
 
-  "Nếu câu hỏi vượt ngoài nội dung trang, nói rõ giới hạn của mình thay vì bịa thêm."
+  "Nếu câu hỏi vượt ngoài nội dung trang, nói rõ giới hạn của mình thay vì bịa thêm.",
 
+    "Hướng dẫn tư duy: đừng chỉ đưa đáp án — hãy dẫn dắt học viên theo chuỗi Công thức/Quy định → Bản chất kinh tế → Phân tích nguyên nhân → Mối quan hệ nhân quả → Giải pháp → Bài tập; hỏi lại xem nhân tố nào đang đổi, tách nguyên nhân rồi mới chốt lời giải kèm rủi ro."
 ].join("\n");
 
 
