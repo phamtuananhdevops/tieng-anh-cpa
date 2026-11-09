@@ -1,0 +1,2048 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-BEY3X5GRK8"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-BEY3X5GRK8', {'page_path': '/tieng-anh'});
+    </script>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="color-scheme" content="light dark" />
+    <link rel="icon" href="data:," />
+    <title>Ôn thi CPA 2026 — Ngoại ngữ (Tiếng Anh) | Trợ lý AI giải bài, chấm bài</title>
+    <meta name="description" content="Ôn thi Ngoại ngữ CPA 2026: 147 thuật ngữ, 15 chủ điểm ngữ pháp, đề thi và bài tập có đáp án. Trợ lý AI giải bài, chấm bài tự luận, soạn bài tập theo chủ điểm." />
+    <meta property="og:title" content="Ôn thi CPA 2026 — Ngoại ngữ (Tiếng Anh) | Trợ lý AI giải bài, chấm bài" />
+    <meta property="og:description" content="Ôn thi Ngoại ngữ CPA 2026: 147 thuật ngữ, 15 chủ điểm ngữ pháp, đề thi và bài tập có đáp án. Trợ lý AI giải bài, chấm bài tự luận, soạn bài tập theo chủ điểm." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://tieng-anh-cpa.vercel.app" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@500;600&display=swap" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <style>
+      :root{
+        --bg:#fbfbf8; --surface:#ffffff; --surface2:#f2f4f0; --ink:#182420; --ink2:#43524a;
+        --line:#dde4dc; --acc:#0d5c46; --acc-ink:#ffffff; --acc-soft:#e2efe8;
+        --amber:#9a5b00; --amber-soft:#faf0da; --red:#b3261e; --red-soft:#fbe9e7;
+        --ok:#0d5c46; --ok-soft:#e2efe8; --radius:10px;
+        color-scheme: light dark;
+      }
+      @media (prefers-color-scheme: dark){
+        :root{
+          --bg:#0e130f; --surface:#161e18; --surface2:#1c261e; --ink:#e9efe9; --ink2:#a9bbae;
+          --line:#2c3a2f; --acc:#43bd93; --acc-ink:#0a1f16; --acc-soft:#173528;
+          --amber:#e0a44a; --amber-soft:#33270f; --red:#f0827a; --red-soft:#3a1a17;
+          --ok:#43bd93; --ok-soft:#173528;
+        }
+      }
+      *{box-sizing:border-box}
+      html{scroll-behavior:smooth}
+      body{margin:0;background:var(--bg);color:var(--ink);font-family:"Be Vietnam Pro",system-ui,sans-serif;font-size:16px;line-height:1.6}
+      .mono{font-family:"IBM Plex Mono",monospace}
+      a{color:var(--acc)}
+      .wrap{max-width:1080px;margin:0 auto;padding:0 18px}
+      /* ---------- nav ---------- */
+      nav.top{position:sticky;top:0;z-index:40;background:var(--bg);border-bottom:1px solid var(--line)}
+      nav.top .wrap{display:flex;flex-wrap:wrap;gap:4px 14px;align-items:center;padding-top:10px;padding-bottom:10px}
+      nav.top .brand{font-weight:800;font-size:15px;margin-right:8px;white-space:nowrap}
+      nav.top a.nl{color:var(--ink2);text-decoration:none;font-size:13.5px;font-weight:500;padding:4px 2px}
+      nav.top a.nl:hover{color:var(--acc)}
+      /* ---------- hero ---------- */
+      header.hero{padding:44px 0 8px}
+      .kicker{font-size:13px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--acc)}
+      h1{font-size:clamp(30px,5.4vw,46px);line-height:1.15;margin:10px 0 12px;font-weight:800}
+      .lede{font-size:17px;color:var(--ink2);max-width:720px;margin:0 0 22px}
+      .countbox{display:flex;flex-wrap:wrap;gap:14px;align-items:stretch;margin:22px 0 8px}
+      .count-main{background:var(--acc);color:var(--acc-ink);border-radius:var(--radius);padding:18px 22px;min-width:230px}
+      .count-main .n{font-size:44px;font-weight:800;line-height:1;font-family:"IBM Plex Mono",monospace}
+      .count-main .l{font-size:13.5px;opacity:.92;margin-top:6px}
+      .count-side{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:16px 20px;flex:1;min-width:230px}
+      .count-side div{font-size:14.5px;margin:3px 0}
+      .cards3{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin:20px 0 6px}
+      .qcard{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:18px;text-decoration:none;color:var(--ink);display:block}
+      .qcard h3{margin:0 0 6px;font-size:16.5px}
+      .qcard p{margin:0;font-size:14px;color:var(--ink2)}
+      .qcard .go{color:var(--acc);font-weight:700;font-size:14px;display:inline-block;margin-top:10px}
+      .pbar{height:8px;background:var(--surface2);border-radius:99px;overflow:hidden;margin-top:10px}
+      .pbar i{display:block;height:100%;background:var(--acc);border-radius:99px}
+      /* ---------- sections ---------- */
+      section{padding:38px 0 6px}
+      section>h2{font-size:clamp(22px,3.4vw,29px);margin:0 0 8px;font-weight:800}
+      .sub{color:var(--ink2);max-width:760px;margin:0 0 18px;font-size:15px}
+      .note{background:var(--amber-soft);border:1px solid var(--line);border-radius:var(--radius);padding:12px 16px;font-size:14px;margin:14px 0}
+      .note b{color:var(--amber)}
+      .card{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:18px;margin:12px 0}
+      .tag{display:inline-block;font-size:12px;font-weight:700;padding:2px 9px;border-radius:99px;background:var(--acc-soft);color:var(--acc);vertical-align:middle}
+      .tag.warn{background:var(--amber-soft);color:var(--amber)}
+      .tag.ref{background:var(--surface2);color:var(--ink2)}
+      /* nhãn phân loại tài liệu 2025/2026 */
+      .lab{display:inline-block;font-size:12px;font-weight:700;padding:2px 9px;border-radius:99px;vertical-align:middle;white-space:nowrap}
+      .lab.t26{background:var(--acc-soft);color:var(--acc)}
+      .lab.t25{background:var(--amber-soft);color:var(--amber)}
+      .lab.decu{background:var(--surface2);color:var(--ink2);border:1px solid var(--line)}
+      .lab.tubien{background:var(--red-soft);color:var(--red)}
+      h2 .lab,td .lab{margin-left:6px}
+      p.labline{margin:-8px 0 14px}
+      button.btn{background:var(--acc);color:var(--acc-ink);border:0;border-radius:8px;padding:9px 16px;font:inherit;font-weight:600;font-size:14.5px;cursor:pointer}
+      button.btn.ghost{background:var(--surface);color:var(--acc);border:1px solid var(--acc)}
+      button.btn.small{padding:6px 12px;font-size:13.5px}
+      button.btn:disabled{opacity:.55;cursor:default}
+      input.ans,textarea.ans{width:100%;border:1px solid var(--line);border-radius:8px;background:var(--surface);color:var(--ink);font:inherit;font-size:15px;padding:9px 12px}
+      textarea.ans{min-height:56px;resize:vertical}
+      input.ans:focus,textarea.ans:focus{outline:2px solid var(--acc);outline-offset:0;border-color:transparent}
+      .okmsg{color:var(--ok);font-weight:600;font-size:14px}
+      .badmsg{color:var(--red);font-weight:600;font-size:14px}
+      .refans{background:var(--surface2);border-radius:8px;padding:10px 14px;font-size:14.5px;margin-top:10px;display:none}
+      .refans.show{display:block}
+      .refans .lbl{font-size:12px;font-weight:700;letter-spacing:.05em;text-transform:uppercase;color:var(--ink2)}
+      table.tb{width:100%;border-collapse:collapse;font-size:14.5px}
+      table.tb th,table.tb td{border-bottom:1px solid var(--line);padding:9px 10px;text-align:left;vertical-align:top}
+      table.tb th{font-size:13px;color:var(--ink2);font-weight:700}
+      details.fold{border:1px solid var(--line);border-radius:var(--radius);background:var(--surface);margin:10px 0}
+      details.fold>summary{cursor:pointer;padding:14px 18px;font-weight:700;font-size:15.5px;list-style:none}
+      details.fold>summary::-webkit-details-marker{display:none}
+      details.fold>summary::after{content:"+";float:right;color:var(--acc);font-weight:800}
+      details.fold[open]>summary::after{content:"–"}
+      details.fold .body{padding:0 18px 16px}
+      /* roadmap */
+      .plan-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:10px}
+      .pday{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:12px 14px;display:flex;gap:12px;align-items:flex-start}
+      .pday.today{border-color:var(--acc);box-shadow:0 0 0 1px var(--acc) inset}
+      .pday .dn{font-family:"IBM Plex Mono",monospace;font-weight:600;font-size:13px;background:var(--surface2);border-radius:6px;padding:3px 8px;white-space:nowrap}
+      .pday.today .dn{background:var(--acc);color:var(--acc-ink)}
+      .pday .pt{font-size:14px;flex:1}
+      .pday .pt .todaytag{color:var(--acc);font-weight:700;font-size:12.5px}
+      .tick{flex:none;width:26px;height:26px;border-radius:50%;border:2px solid var(--line);background:var(--surface);cursor:pointer;font-size:14px;line-height:1;color:transparent;padding:0}
+      .tick.on{background:var(--acc);border-color:var(--acc);color:#fff}
+      .mini{font-size:13px;color:var(--ink2)}
+      /* quiz items */
+      .qitem{border-top:1px solid var(--line);padding:14px 0}
+      .qitem:first-child{border-top:0}
+      .qitem .qq{font-size:15.5px;margin-bottom:8px}
+      .qrow{display:flex;gap:8px;flex-wrap:wrap}
+      .qrow input.ans{flex:1;min-width:180px}
+      .eng{font-family:inherit}
+      .en-sent{font-style:normal}
+      /* vocab */
+      .vgroup{margin:18px 0}
+      .vgroup h3{font-size:16px;margin:0 0 4px}
+      .flash-wrap{display:flex;flex-direction:column;align-items:center;gap:12px;margin:16px 0}
+      .flash{width:min(480px,100%);min-height:190px;background:var(--surface);border:1px solid var(--line);border-radius:14px;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:24px;cursor:pointer;user-select:none}
+      .flash .fw{font-size:26px;font-weight:700}
+      .flash .fh{font-size:13px;color:var(--ink2);margin-top:8px}
+      .flash .fs{font-size:12px;color:var(--ink2);letter-spacing:.06em;text-transform:uppercase;margin-bottom:10px}
+      .flashctl{display:flex;gap:8px;flex-wrap:wrap;justify-content:center}
+      select.sel{border:1px solid var(--line);border-radius:8px;background:var(--surface);color:var(--ink);font:inherit;font-size:14px;padding:8px 10px}
+      /* exam */
+      .timerbar{position:sticky;top:52px;z-index:30;background:var(--bg);padding:10px 0;border-bottom:1px solid var(--line);display:flex;gap:14px;align-items:center;flex-wrap:wrap}
+      .timer{font-family:"IBM Plex Mono",monospace;font-size:26px;font-weight:600}
+      .timer.low{color:var(--red)}
+      .secscore{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin-top:8px}
+      .secscore input{width:80px}
+      .hist{font-size:14px}
+      .hist li{margin:4px 0}
+      /* chat */
+      #chatFab{position:fixed;right:16px;bottom:16px;z-index:60;background:var(--acc);color:var(--acc-ink);border:0;border-radius:99px;padding:13px 20px;font:inherit;font-weight:700;cursor:pointer;box-shadow:0 6px 20px rgba(0,0,0,.25)}
+      #chatBox{position:fixed;right:12px;bottom:12px;z-index:61;width:min(400px,calc(100vw - 24px));height:min(560px,calc(100dvh - 90px));background:var(--surface);border:1px solid var(--line);border-radius:14px;display:none;flex-direction:column;overflow:hidden;box-shadow:0 12px 34px rgba(0,0,0,.28)}
+      #chatBox.open{display:flex}
+      #chatBox.expanded{width:min(760px,calc(100vw - 24px));height:calc(100dvh - 110px)}
+      #chatBox .chead{display:flex;align-items:center;gap:8px;padding:10px 12px;border-bottom:1px solid var(--line)}
+      #chatBox .chead b{flex:1;font-size:15px}
+      #chatBox .chead button{background:none;border:0;font-size:17px;cursor:pointer;color:var(--ink2);padding:4px 6px}
+      #chatMsgs{flex:1;overflow-y:auto;padding:12px;display:flex;flex-direction:column;gap:10px}
+      .msg{max-width:88%;padding:9px 12px;border-radius:12px;font-size:14.5px;white-space:pre-wrap;word-break:break-word}
+      .msg.u{align-self:flex-end;background:var(--acc);color:var(--acc-ink)}
+      .msg.a{align-self:flex-start;background:var(--surface2)}
+      .msg .src{display:block;font-size:12px;color:var(--ink2);margin-bottom:5px;font-weight:600}
+      #chatForm{display:flex;gap:8px;padding:10px;border-top:1px solid var(--line)}
+      #chatForm input{flex:1}
+      footer{padding:34px 0 90px;color:var(--ink2);font-size:13.5px}
+      .grid2{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+      @media (max-width:760px){
+        .cards3{grid-template-columns:1fr}
+        .grid2{grid-template-columns:1fr}
+        .timerbar{top:0}
+        #chatFab{padding:10px 15px;font-size:14px;right:12px;bottom:12px}
+        main.wrap{padding-bottom:56px}
+      }
+      @media print{
+        nav.top,#chatFab,#chatBox,.noprint,.timerbar{display:none !important}
+        body{background:#fff;color:#000}
+        section{padding:14px 0}
+        details.fold{border:0}
+        details.fold .body{display:block}
+      }
+    </style>
+  </head>
+  <body>
+    <!--
+      Login Google (Supabase chung với các môn CPA khác) — authBar đang ẨN mặc định theo mẫu các môn anh em.
+      Để khôi phục thanh đăng nhập: bỏ thuộc tính hidden / display:none / aria-hidden ở #authBar bên dưới
+      và bỏ comment hàm renderAuthBar() trong script. Publishable key là public-by-design (RLS chỉ cho
+      user chạm vào dòng user_progress của chính mình); service_role KHÔNG bao giờ được nhúng vào trang.
+      Mọi tính năng của trang chạy bình thường khi chưa đăng nhập — login chỉ thêm đồng bộ tiến độ đa thiết bị.
+    -->
+    <div id="authBar" hidden style="display:none" aria-hidden="true"></div>
+
+    <nav class="top">
+      <div class="wrap">
+        <span class="brand">Tiếng Anh CPA 2026</span>
+        <a class="nl" href="#lotrinh">Lộ trình</a>
+        <a class="nl" href="#chandoan">Chẩn đoán</a>
+        <a class="nl" href="#khung">Khung chương trình</a>
+        <a class="nl" href="#thaydoi">Thay đổi 2025→2026</a>
+        <a class="nl" href="#nguphap">Ngữ pháp</a>
+        <a class="nl" href="#tuvung">Từ vựng</a>
+        <a class="nl" href="#dochieu">Đọc hiểu &amp; dịch</a>
+        <a class="nl" href="#giaide">Giải đề</a>
+        <a class="nl" href="#thithu">Thi thử</a>
+        <a class="nl" href="#demau">Đề mẫu CD7</a>
+        <a class="nl" href="#decacnam">Đề các năm</a>
+        <a class="nl" href="#nguon">Nguồn</a>
+        <a class="nl" href="#meo">Mẹo thi</a>
+      </div>
+    </nav>
+
+    <header class="hero">
+      <div class="wrap">
+        <div class="kicker">Chuyên đề 7 · Môn Ngoại ngữ · Kỳ thi CPA 2026</div>
+        <h1>Tiếng Anh CPA 2026</h1>
+        <p class="lede">Ôn môn Ngoại ngữ (tiếng Anh, trình độ C) theo khung Chuyên đề 7: 15 chủ điểm ngữ pháp, 147 thuật ngữ, đọc hiểu &amp; dịch, và 2 đề thi thử 120 phút tự chấm — <b>đề tự biên soạn phục vụ luyện tập, không phải đề thi chính thức; đáp án của chúng là đáp án tham khảo</b>. Thí sinh chọn 1 trong 5 ngoại ngữ — trang này chỉ cover <b>tiếng Anh</b>; chưa tìm thấy khung hay đề CPA công khai cho 4 ngoại ngữ còn lại (Nga, Pháp, Trung, Đức).</p>
+        <div class="countbox">
+          <div class="count-main">
+            <div class="n" id="cdNum">—</div>
+            <div class="l" id="cdLbl">ngày nữa tới ngày thi</div>
+          </div>
+          <div class="count-side">
+            <div><b>Ngày thi:</b> Chủ nhật 6/12/2026 — làm thủ tục 13:30–14:00</div>
+            <div><b>Giờ thi:</b> 14:00–16:00 · thi viết <b>120 phút</b></div>
+            <div><b>Kỹ năng:</b> chỉ Đọc – Viết (không nghe, không nói)</div>
+            <div class="mini">Theo Thông báo 226/TB-HĐTKTV2026 (03/11/2026).</div>
+          </div>
+        </div>
+        <div class="cards3">
+          <a class="qcard" href="#khung">
+            <h3>Khung chương trình</h3>
+            <p>63 chức năng ngôn ngữ, 15 chủ điểm ngữ pháp chính thức, cấu trúc đề 7 sections và lưu ý về thang điểm.</p>
+            <span class="go">Xem khung →</span>
+          </a>
+          <a class="qcard" href="#nguphap" id="continueCard">
+            <h3>Tiếp tục học</h3>
+            <p id="continueTxt">Chưa bắt đầu — hãy làm bài chẩn đoán đầu vào hoặc mở chủ điểm ngữ pháp đầu tiên.</p>
+            <div class="pbar"><i id="continueBar" style="width:0%"></i></div>
+            <span class="go" id="continueGo">Bắt đầu học →</span>
+          </a>
+          <a class="qcard" href="#thithu">
+            <h3>Làm đề thi thử</h3>
+            <p>2 đề tự biên 65 câu, bấm giờ 120 phút, tự chấm theo rubric 80 điểm, có chấm AI 5 tiêu chí.</p>
+            <span class="go">Vào phòng thi thử →</span>
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <main class="wrap">
+
+      <!-- ================= LỘ TRÌNH 30 NGÀY ================= -->
+      <section id="lotrinh">
+        <h2>Lộ trình 30 ngày <span class="lab t26">Tài liệu 2026</span></h2>
+        <p class="sub">Lịch ôn từ bộ tài liệu (ngày 1–10 ngữ pháp, 11–18 đọc/dịch, 19–24 viết câu, ngày 25 &amp; 28 thi thử, còn lại chữa lỗi). Lịch giả định bắt đầu khoảng <b>06/11/2026</b> để vừa đủ 30 ngày trước thi 06/12 — bắt đầu muộn hơn thì cần nén lịch. Đánh dấu ngày đã học xong; tiến độ được lưu trên máy này.</p>
+        <p class="mini labline">Nhãn “Tài liệu 2026”: bộ tài liệu ôn tập gắn cho kỳ thi 2026 — khung theo file 2025, chưa đối chiếu sách CD7 2026.</p>
+        <div class="note"><b>Khoảng trống cần biết:</b> lịch 30 ngày chỉ xếp 10/15 chủ điểm ngữ pháp (ngày 1–10). Năm chủ điểm còn lại — Comparatives &amp; superlatives, Gerunds &amp; infinitives, Articles &amp; quantifiers, Prepositions &amp; phrasal verbs, Word forms &amp; connectors — không có trong lịch; hãy tự bù ở mục <a href="#nguphap">Ngữ pháp</a> trong các ngày chữa lỗi.</div>
+        <div class="plan-grid" id="planGrid"></div>
+      </section>
+
+      <!-- ================= CHẨN ĐOÁN ================= -->
+      <section id="chandoan">
+        <h2>Chẩn đoán đầu vào — 12 câu</h2>
+        <p class="sub">10 câu ngữ pháp lấy từ bài tập của 10 chủ điểm đầu + 2 câu đọc hiểu. Chấm ngay từng câu; kết quả chỉ ra chủ điểm cần học lại. Một số câu chấp nhận nhiều đáp án đúng (ghi chú ở phần đáp án).</p>
+        <div class="card">
+          <div id="diagList"></div>
+          <div style="margin-top:14px;display:flex;gap:10px;flex-wrap:wrap;align-items:center">
+            <button class="btn" id="diagScoreBtn" type="button">Xem kết quả chẩn đoán</button>
+            <span id="diagSummary"></span>
+          </div>
+          <div id="diagResult" style="margin-top:12px"></div>
+        </div>
+      </section>
+
+      <!-- ================= KHUNG CHƯƠNG TRÌNH ================= -->
+      <section id="khung">
+        <h2>Khung chương trình — Chuyên đề 7</h2>
+        <p class="sub">Khung chính thức theo sách Chuyên đề 7 (Ngoại ngữ — Tiếng Anh) năm 2026 của Bộ Tài chính, gồm Phần I: 63 chức năng ngôn ngữ, Phần II: 15 chủ điểm ngữ pháp, Phần III: chủ điểm đọc/dịch/viết, Phần IV–VI: nội dung, hình thức thi và dạng thức ra đề, Phần VII: đề mẫu kèm đáp án mẫu.</p>
+
+        <div class="card">
+          <h3 style="margin-top:0">Tính chất môn thi</h3>
+          <ul style="margin:6px 0;padding-left:20px">
+            <li>Thí sinh chọn <b>1 trong 5 ngoại ngữ</b> (Anh, Nga, Pháp, Trung, Đức), trình độ C; chỉ thi <b>Đọc – Viết</b>.</li>
+            <li>Theo quy định/thông báo (nguồn thứ cấp): môn Ngoại ngữ là <b>môn điều kiện, không tính vào tổng điểm</b> của 6 môn chuyên môn; điều kiện đạt được hiểu là <b>≥ 5 điểm trên thang 10</b> — cách quy đổi từ thang 80/100 sang thang 10 <b>chưa xác minh được</b>.</li>
+            <li>Trích dẫn khung theo Thông báo 04/TB-QLKT năm 2026 (không ghi ngày ban hành — chưa xác minh được).</li>
+          </ul>
+        </div>
+
+        <div class="note"><b>Mâu thuẫn thang điểm — chưa có văn bản chính thức giải quyết, trang này trình bày cả ba con số:</b>
+          <table class="tb" style="margin-top:8px">
+            <tr><th>Nguồn trong sách CD7 2026</th><th>Thang điểm</th><th>Chi tiết</th></tr>
+            <tr><td>Phần IV — Nội dung và hình thức thi</td><td><b>100 điểm</b></td><td>Bài thi viết 100 điểm, 120 phút.</td></tr>
+            <tr><td>Phần VI — Bảng dạng thức ra đề</td><td><b>80 điểm</b></td><td>Reading 40 (15 + 15 + 10) + Writing 40 (5 + 15 + 5 + 15).</td></tr>
+            <tr><td>Phần VII — Đáp án mẫu đề</td><td><b>100 điểm, trọng số khác</b></td><td>Reading 55 (Section 1: 15 câu × 2,0 = 30; S2: 15; S3: 10) + Writing 45 (S1: 5; S2: 15; S3: 5 câu × 2,0 = 10; S4: 15).</td></tr>
+          </table>
+          <p style="margin:8px 0 0">Hai đề thi thử trên trang này dùng khung <b>80 điểm</b> theo bảng Phần VI — đây chỉ là khung tham khảo của đề tự biên, <b>không phải thang chấm chính thức đã xác minh</b>.</p>
+        </div>
+
+        <div class="card">
+          <h3 style="margin-top:0">Cấu trúc đề thi — 7 sections (theo bảng Phần VI, tổng 80 điểm)</h3>
+          <table class="tb">
+            <tr><th>Phần</th><th>Section</th><th>Dạng bài</th><th>Điểm</th></tr>
+            <tr><td rowspan="3"><b>Part I — Reading (40)</b></td><td>Section 1</td><td>Chọn từ/cụm từ từ danh sách 20–25 từ điền vào 15 câu chưa hoàn chỉnh (hoặc trắc nghiệm)</td><td>15 × 1,0 = 15</td></tr>
+            <tr><td>Section 2</td><td>2 bài đọc (mỗi bài ~80–100 từ), mỗi bài 5 câu hỏi</td><td>10 × 1,5 = 15</td></tr>
+            <tr><td>Section 3</td><td>1 bài đọc ~150 từ, điền từ thích hợp vào 10 chỗ trống</td><td>10 × 1,0 = 10</td></tr>
+            <tr><td rowspan="4"><b>Part II — Writing (40)</b></td><td>Section 1</td><td>Word formation — dùng dạng đúng của từ trong ngoặc (5 câu)</td><td>5 × 1,0 = 5</td></tr>
+            <tr><td>Section 2</td><td>Guided sentences — dựng câu hoàn chỉnh từ các từ cho sẵn (10 câu)</td><td>10 × 1,5 = 15</td></tr>
+            <tr><td>Section 3</td><td>Sentence transformations — viết lại câu giữ nguyên nghĩa (5 câu)</td><td>5 × 1,0 = 5</td></tr>
+            <tr><td>Section 4</td><td>Translation — dịch 5 câu Việt → Anh và 5 câu Anh → Việt</td><td>10 × 1,5 = 15</td></tr>
+          </table>
+        </div>
+
+        <details class="fold">
+          <summary>63 chức năng ngôn ngữ (Phần I) — danh sách đầy đủ, kèm ví dụ ngắn</summary>
+          <div class="body"><ol id="funcList" style="margin:0;padding-left:22px"></ol>
+          <p class="mini">Ví dụ rút gọn từ sách Chuyên đề 7; sách lưu ý các ví dụ chỉ là minh họa điển hình, chưa bao gồm mọi biểu đạt của từng chức năng.</p></div>
+        </details>
+
+        <details class="fold">
+          <summary>15 chủ điểm ngữ pháp CHÍNH THỨC (Phần II của sách CD7)</summary>
+          <div class="body"><ol id="officialTopics" style="margin:0;padding-left:22px"></ol>
+          <p class="mini">Đây là danh sách khung chính thức. Mục <a href="#nguphap">Ngữ pháp thực hành</a> bên dưới là bản tổ chức lại theo hướng luyện thi từ bộ tài liệu ôn tập — hai danh sách không trùng nhau hoàn toàn.</p></div>
+        </details>
+
+        <div class="card">
+          <h3 style="margin-top:0">Chủ điểm đọc / dịch / viết (Phần III)</h3>
+          <p style="margin:6px 0"><b>Chuyên ngành:</b> Economics, Finance, Banking, Accounting and Auditing, Taxation, Insurance, Business, Marketing, Financial markets.</p>
+          <p style="margin:6px 0"><b>Đời sống:</b> Personal identification · House and home · Life at home · Education and future career · Free time / entertainment · Travel · Relations with other people · Health and welfare · Shopping · Food and drink · Services · Places · Foreign language · Weather.</p>
+          <h3>Giáo trình tham khảo (Phần V)</h3>
+          <p style="margin:6px 0">Enterprise 1, 2, 3 · Business Basics 1, 2, 3 · <i>A Practical English Grammar</i> (Thomson &amp; Martinet) · <i>English Grammar in Use</i> (Murphy) · Cambridge FCE Practice 2, 3, 4 · và các tài liệu liên quan đến kinh tế, tài chính.</p>
+        </div>
+      </section>
+
+      <!-- ================= THAY ĐỔI 2025 → 2026 ================= -->
+      <section id="thaydoi">
+        <h2>Thay đổi pháp luật 2025 → 2026</h2>
+        <p class="sub">Môn Ngoại ngữ không có luật mới sửa đổi như các môn chuyên môn — bảng này ghi các thay đổi về <b>khung chương trình và hình thức thi</b> đã xác minh được khi đối chiếu 2025 → 2026 (theo báo cáo đối chiếu ngày 06/11/2026). Mục nào chưa xác minh được thì ghi rõ “chưa xác minh được”, không suy đoán.</p>
+        <div class="card" style="padding-top:6px;padding-bottom:6px">
+          <table class="tb">
+            <tr><th>Phần</th><th>Năm 2025</th><th>Năm 2026</th><th>Tác động tới bài thi</th></tr>
+            <tr>
+              <td><b>Khung chương trình</b></td>
+              <td>63 chức năng ngôn ngữ, 15 chủ đề ngữ pháp; chỉ thi Đọc–Viết, trình độ C; môn điều kiện, không tính vào tổng điểm.</td>
+              <td><b>Chưa xác minh được khác biệt 2026 so với 2025</b> — sách CD7 2026 (<span class="mono">cd-7-1416.pdf</span>, 25 trang, chỉ là đề cương) chưa đối chiếu với file khung 2025.</td>
+              <td>Học theo khung hiện có trên trang; <b>không khẳng định khung 2026 đã đổi hay không đổi</b>.</td>
+            </tr>
+            <tr>
+              <td><b>Thang điểm</b></td>
+              <td>Trong cùng bộ tài liệu đã có mâu thuẫn: Phần IV ghi <b>100 điểm</b>; bảng format Phần VI cộng lại <b>80 điểm</b> (Đọc 40 + Viết 40); đáp án mẫu cộng lại <b>100 điểm</b> theo trọng số khác.</td>
+              <td><b>Mâu thuẫn chưa giải quyết được</b> — cả hai cách (80 và 100) đều có trong tài liệu, chưa có nguồn chính thức để phân xử.</td>
+              <td>Trang trình bày <b>cả hai cách</b> (xem mục Khung chương trình), không tự chọn một; không ghi “thang 80” hay “thang 100” như con số đã xác minh.</td>
+            </tr>
+            <tr>
+              <td><b>Hình thức thi</b></td>
+              <td>Chỉ thi Đọc–Viết; thí sinh chọn 1 trong 5 ngoại ngữ (trang này chỉ dạy tiếng Anh).</td>
+              <td><b>Không đổi</b> theo tài liệu hiện có.</td>
+              <td>Ôn như cũ: thi viết 120 phút, chỉ hai kỹ năng Đọc – Viết.</td>
+            </tr>
+          </table>
+        </div>
+      </section>
+
+      <!-- ================= NGỮ PHÁP THỰC HÀNH ================= -->
+      <section id="nguphap">
+        <h2>15 chủ điểm ngữ pháp thực hành — 45 bài tập <span class="lab t26">Tài liệu 2026</span></h2>
+        <p class="mini labline">Nhãn “Tài liệu 2026”: bộ tài liệu ôn tập gắn cho kỳ thi 2026 — khung theo file 2025, chưa đối chiếu sách CD7 2026.</p>
+        <p class="sub">Bản tổ chức lại để luyện thi từ bộ tài liệu ôn tập tự biên soạn (không phải danh sách khung chính thức — xem danh sách chính thức ở mục Khung chương trình). Mỗi chủ điểm gồm quy tắc cốt lõi, ví dụ và 3 bài tập chấm ngay. Bốn câu có đáp án khác cũng đúng (4.1, 10.1, 10.2, 13.2) — hệ thống chấm chấp nhận cả các đáp án đó và ghi chú rõ. Đáp án ở đây là đáp án của bộ tài liệu, đã đối chiếu nội bộ với quy tắc của từng chủ điểm. <span class="tag">Đã kiểm định</span></p>
+        <div id="grammarList"></div>
+      </section>
+
+      <!-- ================= TỪ VỰNG + FLASHCARDS ================= -->
+      <section id="tuvung">
+        <h2>Từ vựng — 147 thuật ngữ &amp; flashcards <span class="lab t26">Tài liệu 2026</span></h2>
+        <p class="mini labline">Nhãn “Tài liệu 2026”: bộ tài liệu ôn tập gắn cho kỳ thi 2026 — khung theo file 2025, chưa đối chiếu sách CD7 2026.</p>
+        <p class="sub">147 thuật ngữ tiếng Anh – Việt theo 10 nhóm chuyên ngành, đối chiếu khớp 100% giữa bản PDF và file CSV của bộ tài liệu (đây là bộ từ vựng thực hành tự biên soạn, không phải danh sách bắt buộc chính thức). Năm thuật ngữ có ghi chú nghĩa chính xác hơn trong ngoặc. Tải file CSV để import vào Anki/Quizlet.</p>
+        <p class="noprint"><button class="btn ghost" id="csvBtn" type="button">Tải CSV 147 thuật ngữ</button></p>
+
+        <div class="card noprint">
+          <h3 style="margin-top:0">Flashcards</h3>
+          <div style="display:flex;gap:8px;flex-wrap:wrap;align-items:center">
+            <select class="sel" id="fcGroup" aria-label="Nhóm từ vựng"></select>
+            <select class="sel" id="fcDir" aria-label="Chiều học">
+              <option value="envi">Anh → Việt</option>
+              <option value="vien">Việt → Anh</option>
+            </select>
+            <button class="btn ghost small" id="fcShuffle" type="button">Xáo trộn</button>
+            <span class="mini" id="fcCount"></span>
+          </div>
+          <div class="flash-wrap">
+            <div class="flash" id="fcCard" role="button" tabindex="0" aria-label="Thẻ từ vựng, bấm để lật">
+              <div class="fs" id="fcSide">Mặt trước</div>
+              <div class="fw" id="fcWord">—</div>
+              <div class="fh" id="fcHint">Bấm vào thẻ để lật</div>
+            </div>
+            <div class="flashctl">
+              <button class="btn ghost small" id="fcPrev" type="button">← Trước</button>
+              <button class="btn small" id="fcFlip" type="button">Lật thẻ</button>
+              <button class="btn ghost small" id="fcNext" type="button">Tiếp →</button>
+              <button class="btn ghost small" id="fcKnown" type="button">Đánh dấu đã thuộc</button>
+            </div>
+            <div class="mini" id="fcKnownInfo"></div>
+          </div>
+          <p class="mini">Chiều Việt → Anh: <i>although</i> (+ mệnh đề) và <i>despite</i> (+ danh từ/V-ing) cùng dịch "mặc dù"; <i>however</i> và <i>nevertheless</i> đều là "tuy nhiên" — thẻ có gợi ý phân biệt ở mặt tiếng Việt cho các từ này.</p>
+        </div>
+
+        <div id="vocabTables"></div>
+      </section>
+
+      <!-- ================= ĐỌC HIỂU & DỊCH ================= -->
+      <section id="dochieu">
+        <h2>Đọc hiểu &amp; luyện dịch <span class="lab t26">Tài liệu 2026</span></h2>
+        <p class="mini labline">Nhãn “Tài liệu 2026”: bộ tài liệu ôn tập gắn cho kỳ thi 2026 — khung theo file 2025, chưa đối chiếu sách CD7 2026.</p>
+        <p class="sub">5 bài đọc luyện tập (mỗi bài tóm tắt nội dung + một câu trích ngắn, kèm 5 câu hỏi) và 10 câu luyện dịch Anh → Việt. Toàn bộ câu hỏi là <b>tự luận ngắn</b> — không có trắc nghiệm hay điền từ trong phần này. File gốc của bộ tài liệu ghi tiêu đề có "viết lại câu" nhưng thực tế <b>không có bài viết lại câu nào</b>; phần viết lại câu được luyện ở mục Giải đề và Thi thử. Đáp án là đáp án tham khảo của bộ tài liệu tự biên soạn. <span class="tag">Đã kiểm định</span> (đối chiếu nội bộ với nội dung bài đọc)</p>
+        <div id="readingList"></div>
+        <div class="card">
+          <h3 style="margin-top:0">10 câu luyện dịch Anh → Việt</h3>
+          <div id="transList"></div>
+        </div>
+      </section>
+
+      <!-- ================= GIẢI ĐỀ TỪNG CÂU ================= -->
+      <section id="giaide">
+        <h2>Giải đề từng câu — 2 đề thi thử <span class="lab tubien">Đề thi tự biên — không phải đề chính thức</span></h2>
+        <div class="note"><b>Đề tự biên soạn phục vụ luyện tập, không phải đề thi chính thức.</b> Đáp án là <b>đáp án tham khảo</b>: cách diễn đạt tương đương, đúng ngữ pháp và ngữ nghĩa có thể được chấp nhận — phần dịch và viết câu được gắn trạng thái "Chưa kiểm định được" vì có nhiều cách diễn đạt đúng. Khung điểm 80 (theo bảng Phần VI sách CD7) chỉ là khung tham khảo. Ghi chú dạng thức: phần đọc hiểu trong cả 2 đề dùng câu hỏi tự luận ngắn; đề thật có thể dùng trắc nghiệm — chưa xác minh được dạng câu hỏi đọc hiểu của đề thật.</div>
+        <p class="sub">Làm từng câu, bấm "Xem đáp án" để đối chiếu. Ô tự làm của bạn được lưu trên máy này. Điểm từng section theo rubric: Reading S1 — 1,0/câu · S2 — 1,5/câu · S3 — 1,0/câu · Writing S1 — 1,0/câu · S2 — 1,5/câu · S3 — 1,0/câu · S4 — 1,5/câu.</p>
+        <div style="display:flex;gap:8px;margin-bottom:6px" class="noprint">
+          <button class="btn small" id="walkTab1" type="button">Đề thi thử 01</button>
+          <button class="btn ghost small" id="walkTab2" type="button">Đề thi thử 02</button>
+        </div>
+        <div id="walkBody"></div>
+      </section>
+
+      <!-- ================= THI THỬ 120 PHÚT ================= -->
+      <section id="thithu">
+        <h2>Thi thử 120 phút <span class="lab tubien">Đề thi tự biên — không phải đề chính thức</span></h2>
+        <div class="note"><b>Đề tự biên soạn phục vụ luyện tập, không phải đề thi chính thức</b> — đáp án và khung 80 điểm đều là tham khảo. Hãy làm bài trong 120 phút không tra cứu, nộp bài rồi mới xem đáp án, tự chấm theo rubric và (nếu muốn) nhờ AI chấm phần viết/dịch theo 5 tiêu chí.</div>
+        <div class="noprint" style="display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin-bottom:8px">
+          <select class="sel" id="examSel" aria-label="Chọn đề thi thử">
+            <option value="0">Đề thi thử 01</option>
+            <option value="1">Đề thi thử 02</option>
+          </select>
+          <button class="btn" id="examStart" type="button">Bắt đầu bấm giờ</button>
+          <button class="btn ghost" id="examSubmit" type="button" disabled>Nộp bài &amp; xem đáp án</button>
+        </div>
+        <div class="timerbar noprint" id="timerBar" style="display:none">
+          <span class="timer" id="timerTxt">120:00</span>
+          <span class="mini" id="timerState">Chưa bắt đầu — chọn đề rồi bấm "Bắt đầu bấm giờ". Đáp án chỉ mở sau khi nộp bài.</span>
+        </div>
+        <div id="examBody"></div>
+        <div id="examResult"></div>
+      </section>
+
+      <!-- ================= ĐỀ MẪU CD7 ================= -->
+      <section id="demau">
+        <h2>Đề mẫu Chuyên đề 7 + đáp án mẫu</h2>
+        <p class="sub">Mẫu đề chính thức trong Phần VII của sách Chuyên đề 7, kèm đáp án mẫu đầy đủ — đây là nguồn chính thức duy nhất có đáp án hoàn chỉnh. Lưu ý trọng số của đáp án mẫu: <b>Reading 55 + Writing 45 = 100 điểm</b> (khác bảng Phần VI cộng 80 — xem mục Khung chương trình). Bài đọc dài chỉ tóm tắt + trích ngắn; đáp án mẫu được trình bày đầy đủ.</p>
+        <div id="sampleBody"></div>
+      </section>
+
+      <!-- ================= ĐỀ CÁC NĂM ================= -->
+      <section id="decacnam">
+        <h2>Đề các năm 2010–2025 (mục lục liên kết) <span class="lab decu">Đề thi năm cũ</span></h2>
+        <p class="sub">Liên kết tới thư mục đề theo năm do Gonnapass tổng hợp. Mỗi năm chỉ có <b>một thư mục chung, không phân biệt đề chẵn/lẻ</b>, và toàn bộ đều <b>chưa kiểm tra nội dung từng thư mục</b> — không bảo đảm link còn sống hay đúng đề. <b>Không có đáp án chính thức cho bất kỳ đề thật năm nào</b>; đáp án đầy đủ duy nhất đã xác minh là đáp án mẫu đề trong sách Chuyên đề 7 ở mục trên.</p>
+        <div class="note"><b>Đề 2025:</b> đề thi 2025 môn Ngoại ngữ <b>chưa tìm được ở bất kỳ nguồn nào</b> — dòng 2025 trong mục lục dưới đây chỉ là liên kết tới trang tổng hợp của luyenthicpa.com, <b>không khẳng định đề 2025 tồn tại</b> hay đã có file đề.</div>
+        <div class="card" style="padding-top:6px;padding-bottom:6px">
+          <table class="tb">
+            <tr><th>Năm</th><th>Liên kết</th><th>Trạng thái</th></tr>
+            <tbody id="pastRows"></tbody>
+          </table>
+          <p class="mini">Thêm: <a href="https://gonnapass.com/tai-lieu-thi-cpa-mon-tieng-anh/" target="_blank" rel="noopener">Danh mục tài liệu tiếng Anh CPA — Gonnapass</a> · <a href="https://taca.edu.vn/de-thi-cpa-2023-mon-tieng-anh/" target="_blank" rel="noopener">Đề thi 2023 (bài tham khảo) — TACA</a> · <a href="https://taca.edu.vn/de-thi-mon-tieng-anh-cpa-cac-nam/" target="_blank" rel="noopener">Tổng hợp đề các năm — TACA</a></p>
+        </div>
+      </section>
+
+      <!-- ================= TÀI LIỆU & NGUỒN ================= -->
+      <section id="nguon">
+        <h2>Tài liệu &amp; nguồn</h2>
+        <p class="sub">PDF gốc của Bộ Tài chính <b>không</b> nằm trong bộ tài liệu ôn tập — trang này chỉ liên kết ra nguồn ngoài, không lưu trữ hay nhúng file PDF chính thức.</p>
+        <div class="card" style="padding-top:6px;padding-bottom:6px">
+          <table class="tb">
+            <tr><th>#</th><th>Tài liệu</th><th>Ghi chú</th></tr>
+            <tbody id="srcRows"></tbody>
+          </table>
+        </div>
+        <p style="margin-top:12px"><a href="https://notebook.google.com/notebook/fffdbaf2-f825-493c-aa54-3a86c7fde407" target="_blank" rel="noopener">NotebookLM môn Ngoại ngữ — hỏi đáp và nghe podcast từ tài liệu</a></p>
+      </section>
+
+      <!-- ================= MẸO THI ================= -->
+      <section id="meo">
+        <h2>Mẹo thi</h2>
+        <div class="grid2">
+          <div class="card">
+            <h3 style="margin-top:0">Trong phòng thi</h3>
+            <ul style="margin:6px 0;padding-left:20px">
+              <li>Đọc lướt toàn bộ đề trước, gạch chân từ khóa trong câu hỏi đọc hiểu để quay lại bài đọc tìm đúng vị trí thông tin.</li>
+              <li>Làm phần đọc trước, phần dịch để sau — dịch cần thời gian suy nghĩ về thuật ngữ.</li>
+              <li>Phân bổ thời gian gợi ý: Reading khoảng 50 phút, Writing khoảng 70 phút. <i>Đây là gợi ý ôn luyện, không phải quy định chính thức.</i></li>
+              <li>Câu nào bí quá 2 phút thì đánh dấu, làm câu khác trước, quay lại sau.</li>
+            </ul>
+          </div>
+          <div class="card">
+            <h3 style="margin-top:0">Khi dịch &amp; viết lại câu</h3>
+            <ul style="margin:6px 0;padding-left:20px">
+              <li>Dịch bám sát nghĩa gốc; giữ đúng thuật ngữ chuyên ngành: <i>audit evidence</i> (bằng chứng kiểm toán), <i>internal control</i> (kiểm soát nội bộ), <i>financial statements</i> (báo cáo tài chính).</li>
+              <li>Viết lại câu phải giữ nguyên nghĩa và dùng đúng từ gợi ý (AFTER, PASSIVE, IF, ONLY AFTER…) — với ONLY AFTER ở đầu câu cần đảo ngữ: <i>Only after the manager arrived did we start.</i></li>
+              <li>Guided sentences: xác định thì trước (since/yet → hiện tại hoàn thành), rồi mới sắp xếp trật tự từ.</li>
+            </ul>
+          </div>
+          <div class="card">
+            <h3 style="margin-top:0">Bẫy thường gặp</h3>
+            <ul style="margin:6px 0;padding-left:20px">
+              <li><i>although</i> + mệnh đề, <i>despite</i> + danh từ/V-ing — không dùng "although … but" trong cùng câu.</li>
+              <li><i>must not</i> = cấm, khác hẳn <i>need not / don't have to</i> = không cần.</li>
+              <li>Câu tường thuật phải lùi thì và dùng trật tự khẳng định (không đảo trợ động từ trong câu hỏi gián tiếp).</li>
+              <li>Mệnh đề thời gian ở tương lai dùng hiện tại đơn: <i>As soon as she arrives, we will start</i> — không dùng "will arrive".</li>
+              <li>Word formation: nhìn vị trí trống cần từ loại gì (sau "very" cần trạng từ, sau "the" cần danh từ) trước khi biến đổi từ gốc.</li>
+            </ul>
+          </div>
+          <div class="card">
+            <h3 style="margin-top:0">Chiến lược 30 ngày (theo hướng dẫn của bộ tài liệu)</h3>
+            <ul style="margin:6px 0;padding-left:20px">
+              <li>Ngày 1–10: ngữ pháp, mỗi ngày 1 chủ điểm + 15 flashcards.</li>
+              <li>Ngày 11–18: bài đọc, điền từ và dịch song ngữ; lập sổ lỗi sai.</li>
+              <li>Ngày 19–24: luyện guided sentences, transformations và word forms; tập viết đúng và ngắn.</li>
+              <li>Ngày 25 &amp; 28: làm 2 đề mô phỏng, canh đúng 120 phút, không tra cứu.</li>
+              <li>Ngày còn lại: chữa bài, ghi lỗi, làm lại các dạng yếu; rà soát thông báo thi cập nhật.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <footer>
+        <p>Tiếng Anh CPA 2026 — Chuyên đề 7. Nội dung học tổng hợp từ sách Chuyên đề 7 (Bộ Tài chính, bản 2026 do Tạp chí Kế toán &amp; Kiểm toán lưu trữ) và bộ tài liệu ôn tập tự biên soạn do học viên cung cấp. Phần trích từ sách chỉ tóm tắt/diễn giải kèm trích ngắn; đề thi thử và đáp án của chúng là tự biên, mang tính tham khảo. Tiến độ học được lưu trên trình duyệt này; đăng nhập Google (khi bật) chỉ để đồng bộ tiến độ giữa các thiết bị.</p>
+        <p class="noprint"><button class="btn ghost small" id="clearBtn" type="button">Xóa toàn bộ tiến độ trên máy này</button> <span id="clearMsg"></span></p>
+      </footer>
+    </main>
+
+    <!-- Chat AI tutor -->
+    <button id="chatFab" class="noprint" type="button">Hỏi gia sư AI</button>
+    <div id="chatBox" class="noprint" role="dialog" aria-label="Chat với gia sư AI">
+      <div class="chead">
+        <b>Gia sư AI — Tiếng Anh CPA</b>
+        <button id="chatExpand" type="button" title="Mở rộng / thu nhỏ" aria-label="Mở rộng hoặc thu nhỏ khung chat">⤢</button>
+        <button id="chatClose" type="button" title="Đóng" aria-label="Đóng khung chat">✕</button>
+      </div>
+      <div id="chatMsgs">
+        <div class="msg a">Chào bạn! Hỏi mình về ngữ pháp (15 chủ điểm), từ vựng chuyên ngành, cách dịch câu, hoặc dạng bài trong đề thi thử nhé. Mình trả lời dựa trên nội dung của trang này.</div>
+      </div>
+      <form id="chatForm">
+        <input class="ans" id="chatInput" type="text" placeholder="Ví dụ: Phân biệt although và despite…" autocomplete="off" />
+        <button class="btn" type="submit">Gửi</button>
+      </form>
+    </div>
+
+    <script>
+    'use strict';
+    /* ============================================================
+       Tiến độ học — localStorage key: tieng-anh-progress-v1
+       Login Google (Supabase) chỉ đồng bộ thêm lên user_progress;
+       mọi tính năng chạy khi chưa đăng nhập.
+       ============================================================ */
+    var PKEY = 'tieng-anh-progress-v1';
+    var P = {topicsDone:{}, planDone:{}, diag:{}, diagAns:{}, walkAns:{}, examAns:{}, examHist:[], fcKnown:{}, readAns:{}};
+    try { var savedP = JSON.parse(localStorage.getItem(PKEY) || 'null'); if (savedP && typeof savedP === 'object') { for (var k in savedP) P[k] = savedP[k]; } } catch (e) {}
+    var applyingRemote = false; // anti-loop: đang áp dữ liệu từ Supabase thì không đẩy ngược lên
+    var saveTimer = null;
+    function save() {
+      try { localStorage.setItem(PKEY, JSON.stringify(P)); } catch (e) {}
+      if (applyingRemote) return;
+      clearTimeout(saveTimer);
+      saveTimer = setTimeout(syncUp, 1200); // debounce ~1,2s
+    }
+
+    /* ---------- Supabase (login Google, mẫu chung các môn CPA) ---------- */
+    var sb = null, sbUser = null;
+    try {
+      if (window.supabase && window.supabase.createClient) {
+        sb = window.supabase.createClient('https://yqboyfgmxhaeiepvsooe.supabase.co', 'sb_publishable_EyIqdHsnohMOfDy2ka_PEQ_11BsS3Dy');
+      }
+    } catch (e) { sb = null; }
+    function syncUp() {
+      if (!sb || !sbUser) return;
+      try {
+        sb.from('user_progress').upsert({ user_id: sbUser.id, progress: P, updated_at: new Date().toISOString() }, { onConflict: 'user_id' }).then(function () {}, function () {});
+      } catch (e) {}
+    }
+    function signInGoogle() {
+      if (!sb) return;
+      sb.auth.signInWithOAuth({ provider: 'google', options: { redirectTo: window.location.href.split('#')[0] } });
+    }
+    function signOutSB() { if (sb) sb.auth.signOut().then(function () { window.location.reload(); }); }
+    // Thanh đăng nhập đang ẩn mặc định (xem comment ở #authBar). Bỏ comment lời gọi dưới để hiện lại.
+    function renderAuthBar() {
+      var bar = document.getElementById('authBar');
+      if (!bar) return;
+      bar.hidden = false; bar.style.display = 'block'; bar.removeAttribute('aria-hidden');
+      bar.style.cssText = 'display:block;padding:8px 18px;border-bottom:1px solid var(--line);font-size:13.5px;text-align:right';
+      if (sbUser) {
+        bar.innerHTML = 'Đã đăng nhập: <b></b> · tiến độ đang đồng bộ đa thiết bị <button class="btn ghost small" type="button" id="sbOut">Đăng xuất</button>';
+        bar.querySelector('b').textContent = sbUser.email || '';
+        document.getElementById('sbOut').addEventListener('click', signOutSB);
+      } else {
+        bar.innerHTML = 'Đăng nhập để đồng bộ tiến độ giữa các thiết bị: <button class="btn small" type="button" id="sbIn">Đăng nhập Google</button>';
+        document.getElementById('sbIn').addEventListener('click', signInGoogle);
+      }
+    }
+    // renderAuthBar();
+    if (sb) {
+      sb.auth.getSession().then(function (res) {
+        var s = res && res.data && res.data.session;
+        if (s && s.user) {
+          sbUser = s.user;
+          sb.from('user_progress').select('progress').eq('user_id', sbUser.id).single().then(function (r) {
+            if (r && r.data && r.data.progress) {
+              applyingRemote = true;
+              P = r.data.progress;
+              try { localStorage.setItem(PKEY, JSON.stringify(P)); } catch (e) {}
+              applyingRemote = false;
+              window.location.reload();
+            }
+          }, function () {});
+        }
+      }, function () {});
+    }
+
+    /* ---------- Tiện ích ---------- */
+    function $(id) { return document.getElementById(id); }
+    function esc(s) { return String(s == null ? '' : s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;'); }
+    function norm(s) {
+      return String(s || '').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/đ/g, 'd')
+        .replace(/[^a-z0-9 ]/g, ' ').replace(/\s+/g, ' ').trim();
+    }
+    function checkAns(input, answers) {
+      var n = norm(input);
+      if (!n) return false;
+      for (var i = 0; i < answers.length; i++) { if (n === norm(answers[i])) return true; }
+      return false;
+    }
+
+    /* ============================================================
+       DỮ LIỆU
+       ============================================================ */
+    /* Lộ trình 30 ngày — theo Lich_on_30_ngay.csv của bộ tài liệu.
+       link: [loại, chỉ số] -> grammar (chủ điểm 1..15) | reading (bài 1..5) | mock (đề 1|2) | section id */
+    var PLAN = [
+      ['Ngữ pháp: Verb to be, have & basic questions; 15 flashcards; 10 câu thực hành', ['grammar', 1]],
+      ['Ngữ pháp: Present simple & present continuous; 15 flashcards; 10 câu thực hành', ['grammar', 2]],
+      ['Ngữ pháp: Past simple, past continuous & past perfect; 15 flashcards; 10 câu thực hành', ['grammar', 3]],
+      ['Ngữ pháp: Present perfect & present perfect continuous; 15 flashcards; 10 câu thực hành', ['grammar', 4]],
+      ['Ngữ pháp: Future forms; 15 flashcards; 10 câu thực hành', ['grammar', 5]],
+      ['Ngữ pháp: Passive voice; 15 flashcards; 10 câu thực hành', ['grammar', 6]],
+      ['Ngữ pháp: Modals & obligation; 15 flashcards; 10 câu thực hành', ['grammar', 7]],
+      ['Ngữ pháp: Conditional sentences; 15 flashcards; 10 câu thực hành', ['grammar', 8]],
+      ['Ngữ pháp: Reported speech; 15 flashcards; 10 câu thực hành', ['grammar', 9]],
+      ['Ngữ pháp: Relative clauses; 15 flashcards; 10 câu thực hành', ['grammar', 10]],
+      ['Đọc hiểu/điền từ (bài đọc 1 — The monthly close); dịch 5 câu; ôn 15 flashcards', ['reading', 1]],
+      ['Đọc hiểu/điền từ (bài đọc 2 — Audit evidence); dịch 5 câu; ôn 15 flashcards', ['reading', 2]],
+      ['Đọc hiểu/điền từ (bài đọc 3 — Digital payments); dịch 5 câu; ôn 15 flashcards', ['reading', 3]],
+      ['Đọc hiểu/điền từ (bài đọc 4 — Budgeting and forecasting); dịch 5 câu; ôn 15 flashcards', ['reading', 4]],
+      ['Đọc hiểu/điền từ (bài đọc 5 — Workplace training); dịch 5 câu; ôn 15 flashcards', ['reading', 5]],
+      ['Đọc hiểu/điền từ (bài 6 — bài đọc trong Đề thi thử 01); dịch 5 câu; ôn 15 flashcards', ['mockread', 1]],
+      ['Đọc hiểu/điền từ (bài 7 — bài đọc trong Đề thi thử 02); dịch 5 câu; ôn 15 flashcards', ['mockread', 2]],
+      ['Đọc hiểu/điền từ (bài 8 — ôn lại các bài đọc yếu nhất); dịch 5 câu; ôn 15 flashcards', ['reading', 1]],
+      ['Word formation + guided sentence + sentence transformation; 15 flashcards', ['anchor', 'giaide']],
+      ['Word formation + guided sentence + sentence transformation; 15 flashcards', ['anchor', 'giaide']],
+      ['Word formation + guided sentence + sentence transformation; 15 flashcards', ['anchor', 'giaide']],
+      ['Word formation + guided sentence + sentence transformation; 15 flashcards', ['anchor', 'giaide']],
+      ['Word formation + guided sentence + sentence transformation; 15 flashcards', ['anchor', 'giaide']],
+      ['Word formation + guided sentence + sentence transformation; 15 flashcards', ['anchor', 'giaide']],
+      ['Thi thử đề 1 — 120 phút; ghi lỗi sai', ['mock', 1]],
+      ['Sửa lỗi sai; ôn lại grammar/vocabulary; luyện dịch và viết lại câu', ['anchor', 'giaide']],
+      ['Sửa lỗi sai; ôn lại grammar/vocabulary; luyện dịch và viết lại câu', ['anchor', 'tuvung']],
+      ['Thi thử đề 2 — 120 phút; ghi lỗi sai', ['mock', 2]],
+      ['Sửa lỗi sai; ôn lại grammar/vocabulary; luyện dịch và viết lại câu', ['anchor', 'nguphap']],
+      ['Sửa lỗi sai; ôn lại grammar/vocabulary; luyện dịch và viết lại câu', ['anchor', 'nguphap']]
+    ];
+
+    /* 63 chức năng ngôn ngữ (Phần I sách CD7) — tên + ví dụ rút gọn */
+    var FUNCS = [
+      ['Greeting and responding to greeting', 'Hello. — Good morning! How are you? — I’m fine, well!'],
+      ['Introducing', 'My name is… / This is (name).'],
+      ['Asking for and giving personal details', 'What’s your address? — I live in…'],
+      ['Understanding and completing forms', 'Name, family name, date of birth, place of birth.'],
+      ['Understanding and writing letters giving personal details', 'My name is… I am… (job). I work for…'],
+      ['Describing education, qualifications and skills', 'I graduated in… I specialize in… I’m good at…'],
+      ['Describing people', 'He is tall. He’s got dark hair.'],
+      ['Asking questions about personal possessions', 'Whose car is this? — It’s mine.'],
+      ['Asking for repetition and clarification', 'Can you repeat that, please?'],
+      ['Restating what has been said', 'I was saying… / I mean…'],
+      ['Checking on meaning and intention', 'Do you mean to say…?'],
+      ['Helping people to express their meaning', 'So you mean…'],
+      ['Interrupting a conversation', 'Sorry to interrupt. / Excuse me.'],
+      ['Starting a new topic', 'I’d like to…'],
+      ['Resuming or continuing the topic', 'Coming back to… Let’s come to the main point, please.'],
+      ['Asking for and giving the spelling and meaning of words', 'What does WTO mean? — It means…'],
+      ['Counting and using numbers', 'Cardinal: one, two… Ordinal: 1st, 2nd, third…'],
+      ['Asking and telling the time, day and date', 'What time is it? — It’s ten twenty.'],
+      ['Asking for and giving information about routine and habit', 'What time do you usually get up? — I usually get up at…'],
+      ['Understanding and writing diaries and letters about everyday activities', 'Today we have lunch at…'],
+      ['Talking about past events, recent activities and completed actions', 'He has just written a new book.'],
+      ['Talking about state in the past', 'He used to be a soldier.'],
+      ['Understanding and producing simple narrative', 'It was a nice day. We started early in the morning.'],
+      ['Reporting what people say', 'She said that… He asked why/if…'],
+      ['Talking about future or imaginary situations', 'If… I will…'],
+      ['Talking about future plans or intentions', 'We are going to… tomorrow.'],
+      ['Talking about predictions', 'It will rain soon.'],
+      ['Identifying and describing accommodation', 'The bathroom is downstairs. There is a… in the kitchen.'],
+      ['Buying and selling', 'How much is it? — It’s… VND.'],
+      ['Talking about food and ordering meals', 'I’d like… (food), please.'],
+      ['Talking about the weather', 'It’s sunny / rainy / windy / cloudy…'],
+      ['Talking about one’s health', 'I’ve got a headache. I can’t sleep.'],
+      ['Following and giving simple instructions', 'Open the box. First…, then…'],
+      ['Understanding simple signs and notices', 'Non-smoking area. Open: 8 a.m to 4 p.m.'],
+      ['Asking the way and giving directions', 'Excuse me, could you tell me the way to…? — Turn left.'],
+      ['Asking for and giving travel information', 'How long does it take? How much is a ticket to…?'],
+      ['Asking for and giving information about places', 'It’s 60 miles to the east of…'],
+      ['Identifying and describing simple objects', 'It’s round. It’s made of plastic.'],
+      ['Making comparisons and expressing degrees of difference', 'It’s much more expensive than…'],
+      ['Talking about how to operate things', 'First you plug in… Next press…'],
+      ['Describing simple processes', 'This is how biscuits are produced.'],
+      ['Expressing purpose, cause and result and giving reasons', 'We are saving money in order to…'],
+      ['Drawing conclusions and making recommendations', 'I think we should…'],
+      ['Making and granting/refusing simple requests', 'Would you mind…? — Yes, certainly. / I’m sorry, I can’t.'],
+      ['Making and responding to offers and suggestions', 'Let’s… / Shall I…? — That’s a good idea.'],
+      ['Expressing and responding to thanks', 'Thank you. — Not at all. It’s our pleasure.'],
+      ['Giving and responding to invitations', 'Would you like to…? — Yes, I’d love to.'],
+      ['Giving advice', 'You should… If I were you, I…'],
+      ['Giving warnings and prohibitions', 'Be careful! You mustn’t…'],
+      ['Expressing obligation and lack of obligation', 'You must / have to… You don’t need to… / needn’t…'],
+      ['Asking and giving/refusing permission to do something', 'May I…? — Yes, you can. / No, I’m afraid you can’t.'],
+      ['Making and responding to apologies and excuses', 'I am sorry for… — That’s all right.'],
+      ['Expressing agreement and disagreement and contradicting people', 'I agree that… / I am not so sure.'],
+      ['Paying compliments', 'What a nice shirt! You look very smart.'],
+      ['Criticising and complaining', 'I have a complaint to make. I’ve got a problem with this…'],
+      ['Sympathising', 'How awful! Oh dear!'],
+      ['Expressing preferences and dislikes', 'I prefer… I’d rather… I don’t like… I hate…'],
+      ['Talking about physical and emotional feelings', 'I get annoyed when… I was terrified by…'],
+      ['Expressing opinion and making choices', 'In my opinion it’s… I think that…'],
+      ['Expressing needs and wants', 'I need to… It is necessary to…'],
+      ['Expressing (in)ability in the present and in the past', 'He can… He couldn’t… when…'],
+      ['Talking about (in)probability and (im)possibility', 'It will probably rain. It can’t be colder.'],
+      ['Expressing degrees of certainty and doubt', 'I am certain that… I am not sure that… I doubt…']
+    ];
+
+    /* 15 chủ điểm ngữ pháp chính thức (Phần II sách CD7) */
+    var OFFICIAL = [
+      'Verbs: to be, to have',
+      'Modals: can, could, will, shall, should, have (got) to, ought to, must, mustn’t, needn’t, need, used to + infinitive',
+      'Tenses: present simple/continuous, present perfect simple, past simple/continuous, past perfect simple, future (going to / will / shall / present continuous / present simple)',
+      'Verb forms: imperatives, infinitives, gerunds, passive (present/past simple), verb + object + infinitive, give/take/send/bring/show + direct object, causative have/get',
+      'Compound verb patterns: phrasal verbs / verbs with prepositions',
+      'Conditional sentences: Type 0/1/2/3',
+      'Simple reported speech: statements, questions, commands; indirect/embedded questions',
+      'Interrogatives: what, where, when, who, whose, which, how, how much/many/often/long, why',
+      'Nouns: singular/plural, countable/uncountable, abstract, compound, genitive ’s/s’, double genitive',
+      'Pronouns: personal, reflexive/emphatic, impersonal it/there, demonstrative, relative (who/which/that/whom/whose)',
+      'Determiners: a + countable noun; the + countable/uncountable',
+      'Adjectives: colour/size/shape/quality/nationality, predicative/attributive, cardinal/ordinal, possessive, demonstrative, quantitative, comparative/superlative, order of adjectives, participles, compound adjectives',
+      'Adverbs: manner, frequency, definite/indefinite time, degree, direction, sequence, sentence adverbs, position, comparative/superlative',
+      'Prepositions: location, time, direction, instrument, miscellaneous, prepositional phrases, prepositions before nouns/adjectives, prepositions after nouns/adjectives/verbs',
+      'Connectives: and/but/or, either…or, when/while/until/before/after/as soon as, where, because/since/as/for, so that/(in order) to, so…that/such…that, if/unless/although/while/whereas'
+    ];
+
+    /* 15 chủ điểm ngữ pháp thực hành + 45 bài tập (bộ tài liệu tự biên soạn).
+       alt = đáp án khác cũng đúng (quyết định của coordinator: 4.1, 10.1, 10.2, 13.2). */
+    var GRAMMAR = [
+      { t: 'Verb to be, have & basic questions',
+        rule: 'Be: am/is/are (hiện tại), was/were (quá khứ). Have/has dùng để chỉ sở hữu hoặc làm trợ động từ ở thì hoàn thành. Câu hỏi thường đảo trợ động từ trước chủ ngữ.',
+        ex: ['The auditor is available.', 'Has the company submitted its report?'],
+        exs: [
+          ['The report ___ ready yesterday.', 'was', []],
+          ['___ she have the supporting documents?', 'Does', []],
+          ['They ___ already completed the audit.', 'have', []]
+        ] },
+      { t: 'Present simple & present continuous',
+        rule: 'Present simple: thói quen, sự thật, lịch biểu. Present continuous: hành động đang diễn ra, tình huống tạm thời. Dấu hiệu: usually / every year vs now / at present.',
+        ex: ['The finance team prepares reports monthly.', 'It is reviewing the budget now.'],
+        exs: [
+          ['She usually ___ (check) invoices on Mondays.', 'checks', []],
+          ['Look! The accountant ___ (reconcile) the bank statement.', 'is reconciling', []],
+          ['Our office ___ (open) at 8 a.m. every day.', 'opens', []]
+        ] },
+      { t: 'Past simple, past continuous & past perfect',
+        rule: 'Past simple: hành động đã kết thúc. Past continuous: đang diễn ra tại một thời điểm quá khứ. Past perfect: hoàn tất trước một mốc quá khứ khác.',
+        ex: ['The manager arrived after we had finished the meeting.'],
+        exs: [
+          ['The company ___ (launch) a product last year.', 'launched', []],
+          ['At 9 a.m. yesterday, I ___ (prepare) the file.', 'was preparing', []],
+          ['By the time we arrived, the meeting ___ (start).', 'had started', []]
+        ] },
+      { t: 'Present perfect & present perfect continuous',
+        rule: 'Present perfect: have/has + V3, liên hệ hiện tại; since + mốc, for + khoảng thời gian. Present perfect continuous: have/has been + V-ing, nhấn mạnh quá trình.',
+        ex: ['We have worked on the project since January.'],
+        exs: [
+          ['She ___ (work) here for five years.', 'has worked', ['has been working'], 'Đáp án "has been working" cũng đúng: nhấn mạnh quá trình với "for five years", đúng quy tắc present perfect continuous của chủ điểm này.'],
+          ['The auditor ___ just ___ (finish) the review. (điền cả cụm)', 'has just finished', []],
+          ['They ___ (wait) for an hour.', 'have been waiting', []]
+        ] },
+      { t: 'Future forms',
+        rule: 'Will: dự đoán / quyết định nhanh. Be going to: dự định có trước / dự đoán có bằng chứng. Present continuous: lịch hẹn. Các mệnh đề thời gian tương lai dùng hiện tại đơn.',
+        ex: ['If the figures are correct, we will approve the report.'],
+        exs: [
+          ['I think prices ___ (rise) next month.', 'will rise', []],
+          ['We ___ (meet) the client at 10 tomorrow.', 'are meeting', []],
+          ['As soon as she ___ (arrive), we will start.', 'arrives', []]
+        ] },
+      { t: 'Passive voice',
+        rule: 'Be + past participle; thay đổi thì của be theo thời điểm. Dùng bị động khi người thực hiện không quan trọng hoặc đã biết.',
+        ex: ['The financial statements were audited last month.'],
+        exs: [
+          ['The accounts ___ (review) every quarter.', 'are reviewed', []],
+          ['A new policy ___ (introduce) in 2025.', 'was introduced', []],
+          ['The documents will ___ (send) tomorrow.', 'be sent', []]
+        ] },
+      { t: 'Modals & obligation',
+        rule: 'Can/could: khả năng / yêu cầu; must/have to: bắt buộc; should/ought to: khuyên; may/might: khả năng; must not = cấm, need not = không cần.',
+        ex: ['You must retain supporting documents.', 'You should compare the totals.'],
+        exs: [
+          ['Employees ___ wear ID cards; it is compulsory.', 'must', []],
+          ['You ___ check the figures again; there may be an error.', 'should', []],
+          ['Visitors ___ enter this room without permission. (điền 2 từ)', 'must not', []]
+        ] },
+      { t: 'Conditional sentences',
+        rule: 'Type 0: If + present, present. Type 1: If + present, will + V. Type 2: If + past, would + V. Type 3: If + past perfect, would have + V3.',
+        ex: ['If I had known, I would have called earlier.'],
+        exs: [
+          ['If it rains, we ___ (stay) indoors.', 'will stay', []],
+          ['If I ___ (be) you, I would verify the balance.', 'were', []],
+          ['If she had studied, she ___ (pass) the test.', 'would have passed', []]
+        ] },
+      { t: 'Reported speech',
+        rule: 'Tường thuật thường lùi thì khi động từ dẫn ở quá khứ; đổi đại từ và từ chỉ thời gian. Reported questions dùng trật tự khẳng định, không đảo trợ động từ.',
+        ex: ['She asked whether the invoice had been paid.'],
+        exs: [
+          ['"I am tired," he said. → He said he ___ tired.', 'was', []],
+          ['"Where do you work?" she asked. → She asked where I ___.', 'worked', []],
+          ['"We will come tomorrow," they said. → They said they ___ the next day. (điền cả cụm)', 'would come', []]
+        ] },
+      { t: 'Relative clauses',
+        rule: 'Who/that: người; which/that: vật; whose: sở hữu; where: nơi chốn. Non-defining clauses dùng dấu phẩy và không dùng that.',
+        ex: ['The report, which was issued yesterday, is available online.'],
+        exs: [
+          ['The woman ___ called is our auditor.', 'who', ['that'], 'Đáp án "that" cũng đúng cho người trong mệnh đề quan hệ xác định — quy tắc của chủ điểm này tự nêu "Who/that: người".'],
+          ['The document ___ you requested is attached.', 'that', ['which'], 'Đáp án "which" cũng đúng (vật), và lược bỏ đại từ quan hệ (zero relative) cũng đúng về ngữ pháp: "The document you requested is attached" — dạng lược bỏ không chấm tự động được, hãy đối chiếu bằng nút đáp án.'],
+          ['This is the office ___ he works.', 'where', []]
+        ] },
+      { t: 'Comparatives & superlatives',
+        rule: 'Comparative: -er / more … than; superlative: the -est / most …; as … as; less … than. Chú ý good/better/best, bad/worse/worst.',
+        ex: ['This year’s revenue is higher than last year’s.'],
+        exs: [
+          ['This task is ___ (complex) than the previous one.', 'more complex', []],
+          ['It was the ___ (good) result of the year.', 'best', []],
+          ['The second option is not as ___ (expensive) as the first.', 'expensive', []]
+        ] },
+      { t: 'Gerunds & infinitives',
+        rule: 'Enjoy/avoid/consider + V-ing; decide/hope/plan + to V; các giới từ + V-ing; make/let + bare infinitive.',
+        ex: ['They decided to postpone the audit.', 'She enjoys solving problems.'],
+        exs: [
+          ['We plan ___ (expand) the department.', 'to expand', []],
+          ['He avoided ___ (answer) the question.', 'answering', []],
+          ['She is interested in ___ (learn) English.', 'learning', []]
+        ] },
+      { t: 'Articles, quantifiers & countability',
+        rule: 'A/an: danh từ đếm được số ít chưa xác định; the: đã xác định / duy nhất; some/any, much/many, little/few; information/equipment là không đếm được.',
+        ex: ['We need some information about the new regulations.'],
+        exs: [
+          ['She is ___ honest employee.', 'an', []],
+          ['There are not ___ invoices left.', 'many', ['any'], 'Đáp án "any" cũng đúng trong câu phủ định: "There are not any invoices left."'],
+          ['I need ___ information about the contract.', 'some', []]
+        ] },
+      { t: 'Prepositions, phrasal verbs & collocations',
+        rule: 'Một số kết hợp: responsible for, interested in, depend on, comply with, focus on, increase by/to, account for, carry out an audit.',
+        ex: ['The team is responsible for checking compliance.'],
+        exs: [
+          ['This decision depends ___ the evidence.', 'on', []],
+          ['The company must comply ___ the law.', 'with', []],
+          ['Costs increased ___ 10 percent.', 'by', []]
+        ] },
+      { t: 'Word forms, agreement & connectors',
+        rule: 'Chọn đúng từ loại: noun/verb/adjective/adverb; chủ ngữ số ít chia động từ số ít; although + mệnh đề, despite + danh từ/V-ing, because of + cụm danh từ.',
+        ex: ['Although profits fell, revenue increased.', 'The manager carefully reviewed the report.'],
+        exs: [
+          ['The ___ (accurate) of the data is essential.', 'accuracy', []],
+          ['Neither of the reports ___ (be) complete.', 'is', [], 'Giữ đáp án "is": "neither" + động từ số ít là dạng chuẩn cho bài thi (văn phong không trang trọng đôi khi gặp "are" nhưng không tính là đáp án đúng ở đây).'],
+          ['Despite ___ (be) late, she finished the task.', 'being', []]
+        ] }
+    ];
+
+    /* 147 thuật ngữ — 10 nhóm. note = ghi chú nghĩa chính xác hơn (5 thuật ngữ theo quyết định coordinator);
+       hint = gợi ý phân biệt khi học chiều Việt → Anh. */
+    var VOCAB = [
+      { g: 'Accounting / Kế toán', items: [
+        ['asset', 'tài sản'], ['liability', 'nợ phải trả'], ['equity', 'vốn chủ sở hữu'], ['revenue', 'doanh thu'],
+        ['expense', 'chi phí'], ['profit', 'lợi nhuận'], ['loss', 'lỗ'], ['balance sheet', 'bảng cân đối kế toán'],
+        ['income statement', 'báo cáo kết quả kinh doanh'], ['cash flow statement', 'báo cáo lưu chuyển tiền tệ'],
+        ['accrual', 'dồn tích', 'cơ sở dồn tích'], ['depreciation', 'khấu hao'], ['amortization', 'phân bổ/khấu hao tài sản vô hình'],
+        ['inventory', 'hàng tồn kho'], ['receivable', 'khoản phải thu'], ['payable', 'khoản phải trả']
+      ] },
+      { g: 'Auditing / Kiểm toán', items: [
+        ['audit evidence', 'bằng chứng kiểm toán'], ['audit opinion', 'ý kiến kiểm toán'], ['materiality', 'mức trọng yếu'],
+        ['audit risk', 'rủi ro kiểm toán'], ['internal control', 'kiểm soát nội bộ'], ['fraud', 'gian lận'], ['error', 'sai sót'],
+        ['substantive testing', 'thử nghiệm cơ bản'], ['sampling', 'lấy mẫu'], ['assertion', 'cơ sở dẫn liệu'],
+        ['going concern', 'hoạt động liên tục'], ['independence', 'tính độc lập'], ['compliance', 'sự tuân thủ'],
+        ['qualified opinion', 'ý kiến ngoại trừ'], ['disclaimer of opinion', 'từ chối đưa ra ý kiến'], ['adverse opinion', 'ý kiến trái ngược']
+      ] },
+      { g: 'Finance / Tài chính', items: [
+        ['interest rate', 'lãi suất'], ['principal', 'tiền gốc'], ['loan', 'khoản vay'], ['bond', 'trái phiếu'],
+        ['share', 'cổ phần'], ['dividend', 'cổ tức'], ['investment', 'đầu tư'], ['return', 'lợi suất', 'tỷ suất sinh lời; "lợi suất" thường chỉ yield'],
+        ['tangible asset', 'tài sản hữu hình'], ['intangible asset', 'tài sản vô hình'], ['liquidity', 'khả năng thanh khoản'],
+        ['solvency', 'khả năng thanh toán dài hạn'], ['leverage', 'đòn bẩy'], ['working capital', 'vốn lưu động'],
+        ['capital expenditure', 'chi tiêu vốn'], ['operating cash flow', 'dòng tiền từ hoạt động kinh doanh']
+      ] },
+      { g: 'Tax / Thuế', items: [
+        ['taxpayer', 'người nộp thuế'], ['taxable income', 'thu nhập chịu thuế'], ['tax base', 'căn cứ tính thuế', 'cơ sở tính thuế'],
+        ['tax rate', 'thuế suất'], ['tax return', 'tờ khai thuế'], ['tax deduction', 'khoản khấu trừ thuế'], ['tax exemption', 'miễn thuế'],
+        ['tax refund', 'hoàn thuế'], ['withholding tax', 'thuế khấu trừ tại nguồn'], ['value-added tax', 'thuế giá trị gia tăng'],
+        ['corporate income tax', 'thuế thu nhập doanh nghiệp'], ['personal income tax', 'thuế thu nhập cá nhân'],
+        ['customs duty', 'thuế nhập khẩu', 'thuế hải quan nói chung; thuế nhập khẩu là import duty'], ['tax authority', 'cơ quan thuế']
+      ] },
+      { g: 'Banking / Ngân hàng', items: [
+        ['deposit', 'tiền gửi'], ['withdrawal', 'rút tiền'], ['transfer', 'chuyển khoản'], ['overdraft', 'thấu chi'],
+        ['collateral', 'tài sản bảo đảm'], ['creditworthiness', 'khả năng tín dụng', 'mức độ tín nhiệm / khả năng trả nợ'],
+        ['exchange rate', 'tỷ giá hối đoái'], ['foreign currency', 'ngoại tệ'], ['current account', 'tài khoản thanh toán'],
+        ['savings account', 'tài khoản tiết kiệm'], ['loan maturity', 'ngày đáo hạn khoản vay'], ['bank statement', 'sao kê ngân hàng']
+      ] },
+      { g: 'Business / Kinh doanh', items: [
+        ['supplier', 'nhà cung cấp'], ['customer', 'khách hàng'], ['contract', 'hợp đồng'], ['invoice', 'hóa đơn'],
+        ['purchase order', 'đơn đặt hàng'], ['shipment', 'lô hàng'], ['deadline', 'hạn chót'], ['stakeholder', 'bên liên quan'],
+        ['shareholder', 'cổ đông'], ['subsidiary', 'công ty con'], ['parent company', 'công ty mẹ'], ['merger', 'sáp nhập'],
+        ['acquisition', 'mua lại'], ['market share', 'thị phần'], ['competitive advantage', 'lợi thế cạnh tranh']
+      ] },
+      { g: 'Analysis / Phân tích', items: [
+        ['ratio', 'tỷ số'], ['tendency', 'xu hướng'], ['growth', 'tăng trưởng'], ['decline', 'suy giảm'], ['increase', 'sự gia tăng'],
+        ['decrease', 'sự sụt giảm'], ['variance', 'chênh lệch'], ['forecast', 'dự báo'], ['estimate', 'ước tính'],
+        ['benchmark', 'mốc so sánh'], ['fluctuation', 'biến động'], ['performance', 'hiệu quả hoạt động'],
+        ['productivity', 'năng suất'], ['cost efficiency', 'hiệu quả chi phí']
+      ] },
+      { g: 'Writing / Học thuật', items: [
+        ['although', 'mặc dù', null, 'although + mệnh đề'], ['whereas', 'trong khi đó'], ['therefore', 'vì vậy'],
+        ['however', 'tuy nhiên', null, 'however — đứng đầu câu, sau dấu phẩy'], ['furthermore', 'hơn nữa'],
+        ['nevertheless', 'tuy nhiên/dẫu vậy', null, 'nevertheless — trang trọng hơn however'], ['consequently', 'do đó'],
+        ['in contrast', 'ngược lại'], ['in addition', 'ngoài ra'], ['on the other hand', 'mặt khác'], ['according to', 'theo'],
+        ['in order to', 'để'], ['despite', 'mặc dù', null, 'despite + danh từ / V-ing'], ['unless', 'trừ khi'], ['provided that', 'với điều kiện là']
+      ] },
+      { g: 'Office / Công sở', items: [
+        ['appointment', 'cuộc hẹn'], ['meeting minutes', 'biên bản họp'], ['agenda', 'chương trình họp'], ['attachment', 'tệp đính kèm'],
+        ['enclosure', 'tài liệu gửi kèm'], ['colleague', 'đồng nghiệp'], ['supervisor', 'người giám sát'], ['department', 'phòng ban'],
+        ['responsibility', 'trách nhiệm'], ['requirement', 'yêu cầu'], ['procedure', 'quy trình'], ['policy', 'chính sách'],
+        ['guideline', 'hướng dẫn'], ['approval', 'sự phê duyệt']
+      ] },
+      { g: 'General topics / Phổ thông', items: [
+        ['accommodation', 'chỗ ở'], ['transportation', 'giao thông'], ['environment', 'môi trường'], ['education', 'giáo dục'],
+        ['qualification', 'bằng cấp/năng lực'], ['healthcare', 'chăm sóc sức khỏe'], ['employment', 'việc làm'],
+        ['opportunity', 'cơ hội'], ['challenge', 'thách thức'], ['solution', 'giải pháp'], ['community', 'cộng đồng'],
+        ['sustainable', 'bền vững'], ['reliable', 'đáng tin cậy'], ['accurate', 'chính xác'], ['significant', 'đáng kể']
+      ] }
+    ];
+
+    /* 5 bài đọc luyện tập — tóm tắt + trích ngắn (theo quy tắc trích dẫn), câu hỏi + đáp án tham khảo trích nguyên văn bộ tài liệu */
+    var READINGS = [
+      { title: 'Passage 1 — The monthly close (Khóa sổ cuối tháng)',
+        sum: 'Cuối mỗi tháng, công ty chuẩn bị sổ sách để soát xét nội bộ: đội kế toán kiểm tra hóa đơn đã ghi nhận chưa, đối chiếu số dư ngân hàng, điều tra các bút toán bất thường. Khi phát hiện chênh lệch, nhân viên đối chiếu chứng từ hỗ trợ trước khi sửa sổ cái. Khóa sổ cẩn thận giúp báo cáo quản trị đáng tin cậy hơn; công ty cũng lưu hồ sơ các điều chỉnh để quản lý hiểu số dư báo cáo được tạo ra như thế nào.',
+        quote: 'A careful monthly close does not guarantee that every error will be discovered.',
+        qs: [
+          ['When does the company prepare records for internal review?', 'At the end of each month.'],
+          ['Name one task performed by the accounting team.', 'Checking invoices or reconciling bank balances.'],
+          ['What do staff compare before changing the ledger?', 'Supporting documents.'],
+          ['Does a careful monthly close find every error?', 'No.'],
+          ['Why does the company record adjustments?', 'To explain how reported balances were produced.']
+        ] },
+      { title: 'Passage 2 — Audit evidence (Bằng chứng kiểm toán)',
+        sum: 'Kiểm toán viên cần bằng chứng đầy đủ và phù hợp trước khi kết luận về báo cáo tài chính. Bằng chứng thu thập bằng cách kiểm tra tài liệu, quan sát quy trình, phỏng vấn hoặc xin xác nhận từ bên thứ ba. Không phải bằng chứng nào cũng đáng tin cậy như nhau, và bằng chứng phải liên quan đến cơ sở dẫn liệu đang kiểm tra. Nếu thông tin mâu thuẫn, kiểm toán viên có thể làm thêm thủ tục trước khi đưa ra ý kiến.',
+        quote: 'Not all evidence has the same reliability.',
+        qs: [
+          ['What is required before an auditor draws a conclusion?', 'Sufficient appropriate evidence.'],
+          ['Name two ways to collect evidence.', 'Examining documents, observing procedures, asking questions or external confirmations.'],
+          ['Which may be more persuasive, an external confirmation or an undocumented explanation?', 'An external confirmation.'],
+          ['Why must evidence be relevant?', 'It must support the assertion being tested.'],
+          ['What may happen when information is inconsistent?', 'The auditor may carry out additional procedures.']
+        ] },
+      { title: 'Passage 3 — Digital payments (Thanh toán điện tử)',
+        sum: 'Nhiều doanh nghiệp nhỏ dùng thanh toán điện tử vì khách hàng coi trọng tốc độ và tiện lợi; hồ sơ điện tử cũng đơn giản hóa ghi sổ. Chủ doanh nghiệp cần kiểm tra phí giao dịch, bảo vệ thông tin đăng nhập, đối chiếu báo cáo quyết toán với sao kê ngân hàng. Cần đào tạo nhân viên nhận biết tin nhắn đáng ngờ và không chia sẻ mã truy cập bí mật.',
+        quote: 'A successful payment on a customer screen does not always mean the money has reached the merchant account.',
+        qs: [
+          ['Why do customers value digital payments?', 'Speed and convenience.'],
+          ['What can electronic records simplify?', 'Bookkeeping.'],
+          ['Name two things owners should check or protect.', 'Fees, credentials, settlement reports, or bank statements.'],
+          ['Is a successful customer-screen message proof of settlement?', 'No.'],
+          ['Why should staff receive training?', 'To recognize suspicious messages and protect access information.']
+        ] },
+      { title: 'Passage 4 — Budgeting and forecasting (Lập ngân sách và dự báo)',
+        sum: 'Ngân sách trình bày thu nhập và chi tiêu dự kiến cho một kỳ; dự báo ước tính điều có thể xảy ra dựa trên thông tin hiện tại. Công ty so sánh kết quả thực tế với ngân sách hàng tháng; chênh lệch lớn cần được điều tra. Dự báo thực tế giúp quyết định mua thiết bị mới hay tìm thêm tài chính, và cần cập nhật thường xuyên.',
+        quote: 'It is not a promise about the future; it is an informed estimate that should be updated regularly.',
+        qs: [
+          ['What is a budget?', 'A plan of income and expenditure for a period.'],
+          ['What does a forecast estimate?', 'What is likely to happen.'],
+          ['What should managers do with large differences?', 'Investigate them.'],
+          ['Name one decision supported by a realistic forecast.', 'Whether to buy equipment or obtain financing.'],
+          ['Should forecasts be updated?', 'Yes, regularly.']
+        ] },
+      { title: 'Passage 5 — Workplace training (Đào tạo tại nơi làm việc)',
+        sum: 'Đào tạo có giá trị khi nhân viên áp dụng được kiến thức mới vào công việc hằng ngày. Trước khi chọn khóa học, quản lý nên xác định kỹ năng đội còn thiếu. Sau đào tạo, họ xem xét thay đổi về chất lượng công việc và xin phản hồi từ học viên; chỉ điểm danh không chứng minh được hiệu quả đào tạo.',
+        quote: 'Attendance alone does not prove that training was effective.',
+        qs: [
+          ['When is training valuable?', 'When employees can apply new knowledge at work.'],
+          ['Name two possible training topics.', 'Cybersecurity, customer service, or spreadsheets.'],
+          ['What should managers do before choosing a course?', 'Identify skill gaps.'],
+          ['Is attendance proof of effectiveness?', 'No.'],
+          ['Which measures are more useful?', 'Clear objectives, practice, feedback and improved work quality.', 'Ghi chú: trong bài đọc, "improved work quality" (cải thiện chất lượng công việc) nằm ở câu khác với câu liệt kê thước đo — đáp án của bộ tài liệu gộp cả ý này.']
+        ] }
+    ];
+
+    /* 10 câu luyện dịch Anh → Việt (đáp án tham khảo của bộ tài liệu, đã đối chiếu: dịch đúng nghĩa, đúng thuật ngữ) */
+    var TRANS = [
+      ['The auditor examined the supporting documents before issuing the final report.', 'Kiểm toán viên kiểm tra các chứng từ liên quan trước khi phát hành báo cáo cuối cùng.'],
+      ['Although costs increased, the company maintained a positive operating cash flow.', 'Mặc dù chi phí tăng, công ty vẫn duy trì dòng tiền từ hoạt động kinh doanh dương.'],
+      ['If the figures are incorrect, the finance team will revise the statements.', 'Nếu các số liệu không chính xác, bộ phận tài chính sẽ sửa lại báo cáo.'],
+      ['An effective internal control system helps reduce the risk of errors and fraud.', 'Hệ thống kiểm soát nội bộ hiệu quả giúp giảm nguy cơ sai sót và gian lận.'],
+      ['Managers should compare actual results with the approved budget every month.', 'Nhà quản lý nên so sánh kết quả thực tế với ngân sách được phê duyệt mỗi tháng.'],
+      ['Electronic payment systems are convenient, but users must protect their passwords.', 'Hệ thống thanh toán điện tử rất tiện lợi, nhưng người dùng phải bảo vệ mật khẩu.'],
+      ['The company has prepared financial statements in accordance with its reporting policies.', 'Công ty đã lập báo cáo tài chính phù hợp với các chính sách báo cáo của mình.'],
+      ['The contract was signed after both parties had reviewed all the terms.', 'Hợp đồng được ký sau khi cả hai bên đã xem xét tất cả các điều khoản.'],
+      ['A reliable forecast should be updated when market conditions change.', 'Một dự báo đáng tin cậy cần được cập nhật khi điều kiện thị trường thay đổi.'],
+      ['The accountant asked whether the invoice had already been paid.', 'Kế toán viên hỏi liệu hóa đơn đó đã được thanh toán hay chưa.']
+    ];
+
+    /* 2 ĐỀ THI THỬ TỰ BIÊN — 65 câu/đề, khung tham khảo 80 điểm.
+       Cấu trúc section: {key, part, name, pts (điểm/câu), kind, status, groups:[{head, text, bank, items:[[câu hỏi, đáp án, ghi chú?]]}]} */
+    var MOCKS = [
+      { name: 'Đề thi thử 01', sections: [
+        { key: 'r1', part: 'Part I — Reading', name: 'Section 1. Vocabulary and usage', pts: 1, kind: 'obj', status: 'Đã kiểm định',
+          groups: [{ head: 'Chọn một từ thích hợp trong khung cho mỗi câu (mỗi từ dùng tối đa 1 lần).',
+            bank: 'revenue · expenses · deadline · invoice · audit · profit · budget · supplier · customer · balance · report · record · accurate · transaction · review · inventory · cash · forecast · evidence · reconcile',
+            items: [
+              ['The company earned higher ___ from online sales this year.', 'revenue'],
+              ['Staff must submit the form before the ___.', 'deadline'],
+              ['An ___ shows the amount charged for goods or services.', 'invoice'],
+              ['An independent ___ is carried out to examine financial statements.', 'audit'],
+              ['Sales minus costs may result in a ___.', 'profit'],
+              ['The financial ___ sets out planned income and spending.', 'budget'],
+              ['A business buys materials from its ___.', 'supplier'],
+              ['A person who buys a product is a ___.', 'customer'],
+              ['The accountant checks the bank ___.', 'balance'],
+              ['Managers use a monthly ___ to follow performance.', 'report'],
+              ['Please keep a written ___ of the changes made.', 'record'],
+              ['Figures must be complete and ___.', 'accurate'],
+              ['Every electronic ___ needs a reference number.', 'transaction'],
+              ['The supervisor will ___ the work before approval.', 'review'],
+              ['The company counts its ___ at year-end.', 'inventory']
+            ] }] },
+        { key: 'r2', part: 'Part I — Reading', name: 'Section 2. Reading comprehension', pts: 1.5, kind: 'open', status: 'Đã kiểm định',
+          groups: [
+            { head: 'Passage 1: Small business cash flow',
+              text: 'A small business can report a profit yet experience cash shortages. For example, it may sell goods on credit and receive payment several weeks later. During that time, wages and rent still have to be paid. The owner should prepare a cash forecast, monitor overdue invoices and keep an emergency reserve. These simple actions make it easier to meet short-term obligations and avoid unnecessary borrowing.',
+              items: [
+                ['Can a profitable business have cash shortages?', 'Yes.'],
+                ['Why might payment arrive late?', 'Goods may be sold on credit.'],
+                ['Name two expenses that continue while cash is delayed.', 'Wages and rent.'],
+                ['What should the owner monitor?', 'Overdue invoices.'],
+                ['What can help avoid unnecessary borrowing?', 'A cash forecast and an emergency reserve.']
+              ] },
+            { head: 'Passage 2: The audit meeting',
+              text: 'Before an audit begins, the audit team usually meets management to discuss the timetable and key business risks. The company identifies the people who can provide records and answer questions. The team also explains which documents will be requested. Clear communication reduces delays, but it does not replace the auditor’s professional judgment. If important information is missing, the auditor may need to extend testing and request more evidence.',
+              items: [
+                ['Who does the audit team meet?', 'Management.'],
+                ['What do they discuss?', 'The timetable and key risks.'],
+                ['Who identifies the record providers?', 'The company.'],
+                ['Does communication replace professional judgment?', 'No.'],
+                ['What might happen when information is missing?', 'Testing may be extended and more evidence requested.']
+              ] }
+          ] },
+        { key: 'r3', part: 'Part I — Reading', name: 'Section 3. Open cloze', pts: 1, kind: 'obj', status: 'Đã kiểm định',
+          groups: [{ head: 'Điền MỘT từ thích hợp vào mỗi chỗ trống.',
+            text: 'Every month, our finance team (1) ___ the sales ledger. The team compares invoices (2) ___ bank receipts and checks whether customers have paid (3) ___ time. If a payment is missing, staff (4) ___ the customer. They also examine unusual (5) ___ before closing the accounts. The manager (6) ___ the summary and asks for explanations of large (7) ___. These steps help the company produce (8) ___ information. The report is then shared (9) ___ senior managers so that they can make informed (10) ___.',
+            items: [
+              ['Chỗ trống (1)', 'reviews'], ['Chỗ trống (2)', 'with'], ['Chỗ trống (3)', 'on'], ['Chỗ trống (4)', 'contact'],
+              ['Chỗ trống (5)', 'transactions'], ['Chỗ trống (6)', 'reviews', 'Lưu ý: đáp án "reviews" lặp lại ở cả gap 1 và gap 6 trong đáp án gốc của bộ tài liệu — open cloze không giới hạn mỗi từ dùng một lần nên vẫn hợp lệ.'],
+              ['Chỗ trống (7)', 'differences'], ['Chỗ trống (8)', 'reliable'], ['Chỗ trống (9)', 'with'], ['Chỗ trống (10)', 'decisions']
+            ] }] },
+        { key: 'w1', part: 'Part II — Writing', name: 'Section 1. Word formation', pts: 1, kind: 'obj', status: 'Đã kiểm định',
+          groups: [{ head: 'Dùng dạng đúng của từ trong ngoặc để hoàn thành câu.', items: [
+            ['The accountant prepared the report very ___. (careful)', 'carefully'],
+            ['The new system improved team ___. (efficient)', 'efficiency'],
+            ['The ___ of the figures is important. (accurate)', 'accuracy'],
+            ['We need a more ___ forecast. (rely)', 'reliable'],
+            ['The records were ___ reviewed. (independent)', 'independently']
+          ] }] },
+        { key: 'w2', part: 'Part II — Writing', name: 'Section 2. Guided sentences', pts: 1.5, kind: 'open', status: 'Đã kiểm định',
+          groups: [{ head: 'Viết câu hoàn chỉnh, đúng ngữ pháp từ các từ gợi ý.', items: [
+            ['she / work / bank / since / 2022', 'She has worked at a bank since 2022.'],
+            ['if / costs / rise / we / revise / budget', 'If costs rise, we will revise the budget.'],
+            ['the invoice / send / yesterday', 'The invoice was sent yesterday.'],
+            ['they / not / finish / audit / yet', 'They have not finished the audit yet.'],
+            ['although / revenue / rise / profit / fall', 'Although revenue rose, profit fell.'],
+            ['we / plan / introduce / new system', 'We plan to introduce a new system.'],
+            ['could / you / explain / this / difference / please', 'Could you explain this difference, please?'],
+            ['the report / which / publish / last week / useful', 'The report which was published last week is useful.'],
+            ['this year / sales / high / than / last year', 'This year, sales are higher than last year.'],
+            ['manager / ask / whether / payment / arrive', 'The manager asked whether the payment had arrived.']
+          ] }] },
+        { key: 'w3', part: 'Part II — Writing', name: 'Section 3. Sentence transformations', pts: 1, kind: 'open', status: 'Đã kiểm định',
+          groups: [{ head: 'Viết lại câu dùng từ trong ngoặc, giữ nguyên nghĩa.', items: [
+            ['The accountant checked the documents. Then she signed the report. (AFTER)', 'After checking the documents, the accountant signed the report.'],
+            ['They finished the audit last Friday. (PASSIVE)', 'The audit was finished last Friday.'],
+            ['He did not study enough, so he failed. (IF)', 'If he had studied enough, he would have passed.'],
+            ['This task is easier than that one. (NOT AS)', 'That task is not as easy as this one.'],
+            ['"Do you have the receipt?" she asked him. (WHETHER)', 'She asked him whether he had the receipt.']
+          ] }] },
+        { key: 'w4', part: 'Part II — Writing', name: 'Section 4. Translation', pts: 1.5, kind: 'open', status: 'Chưa kiểm định được',
+          groups: [
+            { head: 'Dịch 5 câu tiếng Việt sang tiếng Anh:', items: [
+              ['VN1. Công ty phải nộp báo cáo trước thứ Sáu.', 'The company must submit the report before Friday.'],
+              ['VN2. Nếu doanh thu tăng, lợi nhuận có thể được cải thiện.', 'If revenue increases, profit may improve.', 'Ghi chú: câu gốc dùng bị động "có thể được cải thiện", đáp án dịch sang chủ động "may improve" — nghĩa tương đương, vẫn chấp nhận được.'],
+              ['VN3. Báo cáo tài chính đã được kiểm toán vào tháng trước.', 'The financial statements were audited last month.'],
+              ['VN4. Chúng tôi cần kiểm tra những hóa đơn chưa được thanh toán.', 'We need to check the unpaid invoices.'],
+              ['VN5. Ngân sách mới sẽ được trình bày tại cuộc họp ngày mai.', 'The new budget will be presented at tomorrow’s meeting.']
+            ] },
+            { head: 'Dịch 5 câu tiếng Anh sang tiếng Việt:', items: [
+              ['EN1. The manager compared the actual costs with the approved budget.', 'Người quản lý so sánh chi phí thực tế với ngân sách đã được phê duyệt.'],
+              ['EN2. Please provide supporting documents for these transactions.', 'Vui lòng cung cấp chứng từ liên quan cho các giao dịch này.'],
+              ['EN3. The company has not received the payment yet.', 'Công ty vẫn chưa nhận được khoản thanh toán.'],
+              ['EN4. A clear audit timetable can reduce unnecessary delays.', 'Một lịch trình kiểm toán rõ ràng có thể giảm những sự chậm trễ không cần thiết.'],
+              ['EN5. Employees should report any unusual activity immediately.', 'Nhân viên nên báo cáo ngay bất kỳ hoạt động bất thường nào.']
+            ] }
+          ] }
+      ] },
+      { name: 'Đề thi thử 02', sections: [
+        { key: 'r1', part: 'Part I — Reading', name: 'Section 1. Vocabulary and usage', pts: 1, kind: 'obj', status: 'Đã kiểm định',
+          groups: [{ head: 'Chọn một từ thích hợp trong khung cho mỗi câu (mỗi từ dùng tối đa 1 lần).',
+            bank: 'interest · capital · policy · contract · receipt · approval · risk · payment · market · growth · quality · customer · training · borrow · credit · expense · forecast · deliver · savings · project',
+            items: [
+              ['The bank charges ___ on a business loan.', 'interest'],
+              ['A company may raise ___ by issuing shares.', 'capital'],
+              ['All staff must follow the security ___.', 'policy'],
+              ['Both parties should read the ___ before signing.', 'contract'],
+              ['Always keep the ___ after making a cash purchase.', 'receipt'],
+              ['We need the manager’s ___ to proceed.', 'approval'],
+              ['Diversification may reduce investment ___.', 'risk'],
+              ['The supplier expects ___ within 30 days.', 'payment'],
+              ['The business plans to enter a new ___.', 'market'],
+              ['Sales ___ was slower than expected.', 'growth'],
+              ['Product ___ is checked before shipment.', 'quality'],
+              ['The service team answered a ___ complaint.', 'customer'],
+              ['Regular ___ can improve employee skills.', 'training'],
+              ['We may have to ___ money to buy equipment.', 'borrow'],
+              ['The bank offered the customer a line of ___.', 'credit']
+            ] }] },
+        { key: 'r2', part: 'Part I — Reading', name: 'Section 2. Reading comprehension', pts: 1.5, kind: 'open', status: 'Đã kiểm định',
+          groups: [
+            { head: 'Passage 1: Customer service',
+              text: 'A customer complained that an order had arrived late and that one item was damaged. Instead of arguing, the service representative apologized and asked for the order number. After checking the delivery record, she offered a replacement or a refund under the company’s policy. The customer chose a replacement. The representative then confirmed the new delivery date in writing. A clear response helped the company retain a customer and identify a weakness in its packaging process.',
+              items: [
+                ['What two problems did the customer report?', 'Late delivery and a damaged item.'],
+                ['What did the representative ask for?', 'The order number.'],
+                ['What two solutions were offered?', 'A replacement or a refund.'],
+                ['What did the customer choose?', 'A replacement.'],
+                ['What weakness did the company identify?', 'Its packaging process.']
+              ] },
+            { head: 'Passage 2: Savings and investment',
+              text: 'Keeping savings in a bank account can provide easy access to money, but the return may be modest. Investing in shares may offer higher returns over a long period, although prices can change significantly. Before choosing a product, an individual should consider goals, time horizon and willingness to accept risk. Money needed for emergencies is usually better kept in a readily accessible form. No single investment strategy is suitable for everyone, so careful planning matters.',
+              items: [
+                ['What advantage does a bank account offer?', 'Easy access to money.'],
+                ['What may shares provide?', 'Higher long-term returns.'],
+                ['What can change significantly?', 'Share prices.', 'Ghi chú: câu hỏi hơi mơ hồ — trong bài đọc, "prices" ở câu về cổ phiếu nên đáp án là giá cổ phiếu.'],
+                ['Name two factors to consider before investing.', 'Goals, time horizon, or risk tolerance.'],
+                ['Where is emergency money usually better kept?', 'In an accessible form.']
+              ] }
+          ] },
+        { key: 'r3', part: 'Part I — Reading', name: 'Section 3. Open cloze', pts: 1, kind: 'obj', status: 'Đã kiểm định',
+          groups: [{ head: 'Điền MỘT từ thích hợp vào mỗi chỗ trống.',
+            text: 'A company wants to (1) ___ a new service next year. Before the launch, managers conduct (2) ___ research and prepare a financial (3) ___. They estimate likely sales and (4) ___, then compare different scenarios. Because the project involves (5) ___, the directors review the risks (6) ___ approving it. Staff receive (7) ___ so that they can explain the service to (8) ___. Once the service is available, the team measures customer (9) ___ and updates its plans (10) ___.',
+            items: [
+              ['Chỗ trống (1)', 'launch'], ['Chỗ trống (2)', 'market'], ['Chỗ trống (3)', 'forecast'], ['Chỗ trống (4)', 'costs'],
+              ['Chỗ trống (5)', 'investment'], ['Chỗ trống (6)', 'before'], ['Chỗ trống (7)', 'training'], ['Chỗ trống (8)', 'customers'],
+              ['Chỗ trống (9)', 'satisfaction'], ['Chỗ trống (10)', 'regularly']
+            ] }] },
+        { key: 'w1', part: 'Part II — Writing', name: 'Section 1. Word formation', pts: 1, kind: 'obj', status: 'Đã kiểm định',
+          groups: [{ head: 'Dùng dạng đúng của từ trong ngoặc để hoàn thành câu.', items: [
+            ['The department is responsible for financial ___. (plan)', 'planning'],
+            ['We need to improve the ___ of our service. (reliable)', 'reliability'],
+            ['The employee answered the question ___. (polite)', 'politely'],
+            ['The changes were ___ significant. (economy)', 'economically', 'Ghi chú: "economically significant" là collocation có thật và đúng ngữ pháp (đáng kể về mặt kinh tế), dù hơi lạ trong ngữ cảnh bài tập từ loại.'],
+            ['This method is more ___ than the old one. (effect)', 'effective']
+          ] }] },
+        { key: 'w2', part: 'Part II — Writing', name: 'Section 2. Guided sentences', pts: 1.5, kind: 'open', status: 'Đã kiểm định',
+          groups: [{ head: 'Viết câu hoàn chỉnh, đúng ngữ pháp từ các từ gợi ý.', items: [
+            ['my colleague / interested / learn / English', 'My colleague is interested in learning English.'],
+            ['the figures / check / before / report / issue', 'The figures were checked before the report was issued.'],
+            ['if / I / have / more time / I / study / longer', 'If I had more time, I would study longer.'],
+            ['company / not / make / decision / yet', 'The company has not made a decision yet.'],
+            ['although / market / change / quickly / sales / remain / stable', 'Although the market changed quickly, sales remained stable.'],
+            ['they / decide / postpone / meeting', 'They decided to postpone the meeting.'],
+            ['could / I / ask / you / a / question', 'Could I ask you a question?'],
+            ['the employee / who / join / yesterday / experienced', 'The employee who joined yesterday is experienced.'],
+            ['option A / less / expensive / than / option B', 'Option A is less expensive than option B.'],
+            ['she / ask / where / manager / work', 'She asked where the manager worked.']
+          ] }] },
+        { key: 'w3', part: 'Part II — Writing', name: 'Section 3. Sentence transformations', pts: 1, kind: 'open', status: 'Đã kiểm định',
+          groups: [{ head: 'Viết lại câu dùng từ trong ngoặc, giữ nguyên nghĩa.', items: [
+            ['We did not start until the manager arrived. (ONLY AFTER)', 'We started only after the manager arrived.', 'Đáp án gốc của bộ tài liệu đặt "only after" giữa câu. Dạng đảo ngữ trang trọng thường được kiểm tra với ONLY AFTER cũng đúng và nên biết: "Only after the manager arrived did we start."'],
+            ['They will announce the results tomorrow. (PASSIVE)', 'The results will be announced tomorrow.'],
+            ['He was late because he missed the bus. (IF)', 'If he had not missed the bus, he would not have been late.'],
+            ['This report is not as detailed as the other one. (MORE)', 'The other report is more detailed than this one.'],
+            ['"Why are you leaving early?" he asked her. (WHY)', 'He asked her why she was leaving early.']
+          ] }] },
+        { key: 'w4', part: 'Part II — Writing', name: 'Section 4. Translation', pts: 1.5, kind: 'open', status: 'Chưa kiểm định được',
+          groups: [
+            { head: 'Dịch 5 câu tiếng Việt sang tiếng Anh:', items: [
+              ['VN1. Nhân viên phải bảo vệ thông tin của khách hàng.', 'Employees must protect customer information.'],
+              ['VN2. Nếu lãi suất tăng, chi phí đi vay có thể tăng.', 'If interest rates increase, borrowing costs may rise.'],
+              ['VN3. Hợp đồng đã được cả hai bên ký hôm qua.', 'The contract was signed by both parties yesterday.'],
+              ['VN4. Chúng tôi cần một dự báo đáng tin cậy cho năm tới.', 'We need a reliable forecast for next year.'],
+              ['VN5. Khóa đào tạo mới sẽ bắt đầu vào tuần sau.', 'The new training course will begin next week.']
+            ] },
+            { head: 'Dịch 5 câu tiếng Anh sang tiếng Việt:', items: [
+              ['EN1. The company will review its policy at the end of the year.', 'Công ty sẽ rà soát chính sách của mình vào cuối năm.'],
+              ['EN2. Please send us a copy of the signed contract.', 'Vui lòng gửi cho chúng tôi bản sao hợp đồng đã ký.'],
+              ['EN3. The project has created several new jobs.', 'Dự án đã tạo ra một số công việc mới.'],
+              ['EN4. Management should identify risks before making an investment.', 'Ban quản lý nên xác định rủi ro trước khi đầu tư.'],
+              ['EN5. A regular review can help improve the quality of service.', 'Việc rà soát định kỳ có thể giúp cải thiện chất lượng dịch vụ.']
+            ] }
+          ] }
+      ] }
+    ];
+
+    /* Chẩn đoán đầu vào — 12 câu: 10 câu từ bài tập chủ điểm 01–10 + 2 câu đọc hiểu.
+       type 'fill': đáp án + đáp án khác; type 'read': so khớp từ khóa chứa trong câu trả lời. */
+    var DIAG = [
+      { topic: 1, type: 'fill', q: 'The report ___ ready yesterday.', a: ['was'] },
+      { topic: 2, type: 'fill', q: 'She usually ___ (check) invoices on Mondays.', a: ['checks'] },
+      { topic: 3, type: 'fill', q: 'By the time we arrived, the meeting ___ (start).', a: ['had started'] },
+      { topic: 4, type: 'fill', q: 'She ___ (work) here for five years.', a: ['has worked', 'has been working'], note: 'Chấp nhận cả "has been working" (nhấn mạnh quá trình).' },
+      { topic: 5, type: 'fill', q: 'As soon as she ___ (arrive), we will start.', a: ['arrives'] },
+      { topic: 6, type: 'fill', q: 'The accounts ___ (review) every quarter.', a: ['are reviewed'] },
+      { topic: 7, type: 'fill', q: 'Employees ___ wear ID cards; it is compulsory.', a: ['must'] },
+      { topic: 8, type: 'fill', q: 'If I ___ (be) you, I would verify the balance.', a: ['were'] },
+      { topic: 9, type: 'fill', q: '"Where do you work?" she asked. → She asked where I ___.', a: ['worked'] },
+      { topic: 10, type: 'fill', q: 'The document ___ you requested is attached.', a: ['that', 'which'], note: 'Chấp nhận cả "which"; lược bỏ đại từ quan hệ cũng đúng về ngữ pháp.' },
+      { topic: 0, type: 'read', q: 'Đọc hiểu (theo Passage 1 — The monthly close): When does the company prepare records for internal review?', a: ['end of each month', 'end of the month', 'cuoi moi thang', 'cuoi thang'], show: 'At the end of each month.' },
+      { topic: 0, type: 'read', q: 'Đọc hiểu (theo Passage 2 — Audit evidence): Which may be more persuasive, an external confirmation or an undocumented explanation?', a: ['external confirmation', 'xac nhan', 'ben ngoai', 'third party'], show: 'An external confirmation.' }
+    ];
+
+    /* Đề mẫu Chuyên đề 7 (Phần VII) + đáp án mẫu chính thức.
+       Bài đọc dài: chỉ tóm tắt + trích ngắn. Đáp án mẫu trình bày đầy đủ. */
+    var SAMPLE = [
+      { name: 'Part I — Section 1. Chọn từ từ danh sách (15 câu × 2,0 = 30 điểm theo đáp án mẫu)',
+        head: 'Danh sách từ: round · forgettable · currency · memorable · broke · mate · average · even · odd · cardinal · partner · colleague · ordinal · dozen · chew · digits · good company · local time · absent-minded · trouble-maker',
+        items: [
+          ['My mother always used to say to me “Now make sure you ___ meat carefully before you swallow it.”', 'chew'],
+          ['He and I own his business together. He’s my ___.', 'partner'],
+          ['She didn’t know what the homework was so she asked a class___.', 'mate'],
+          ['She teaches in the same school as I do. She’s a ___.', 'colleague'],
+          ['I’ll never forget that day — it was a very ___ occasion.', 'memorable'],
+          ['He sometimes put salt in his tea instead of sugar. He’s very ___.', 'absent-minded'],
+          ['You can change your ___ at any bank or large hotel.', 'currency'],
+          ['I’m afraid I have no money at all. I’m completely ___.', 'broke'],
+          ['1, 2, 3, 4, 5, etc. are ___ numbers.', 'cardinal'],
+          ['Could you go and buy a ___ eggs, please?', 'dozen'],
+          ['2, 4, 6, 8, 10, etc. are ___ numbers.', 'even'],
+          ['There are normally seven ___ in a London telephone number.', 'digits'],
+          ['The student’s ages vary. The ___ is about 22.', 'average'],
+          ['He’s a pleasant, interesting person to have with you at any time. He’s ___.', 'good company'],
+          ['The plane is due to reach Bangkok at 5.30 a.m. ___.', 'local time']
+        ] },
+      { name: 'Part I — Section 2, Passage 1. “Black Friday” 1869 (5 câu × 1,5 = 7,5 điểm)',
+        sum: 'Bài đọc kể về ngày Thứ Sáu Đen 24/9/1869 khi thị trường vàng Mỹ sụp đổ: Chính phủ phát hành quá nhiều tiền giấy để tài trợ Nội chiến; giới đầu cơ ở New York tìm cách thao túng thị trường vàng dựa trên lời bảo đảm sai lệch từ anh rể của Tổng thống rằng Chính phủ sẽ không bán vàng dự trữ.',
+        quote: 'When the US gold market crashed on September 24, 1869, the day became known as Black Friday.',
+        items: [
+          ['What was the date known as Black Friday?', 'September 24, 1869.'],
+          ['What happened on the day known as Black Friday?', 'The US gold market crashed.'],
+          ['How did the speculators in New York capitalize on the inflated price of gold in relation to paper currency?', 'By cornering the gold market.'],
+          ['Who supplied the gold speculators with false assurances?', 'The President’s brother-in-law.'],
+          ['When did the bottom fall out of the gold market and the gold price crash?', 'When the US Treasury announced $4 million in gold sales.']
+        ] },
+      { name: 'Part I — Section 2, Passage 2. Sâu răng (trắc nghiệm, 5 câu × 1,5 = 7,5 điểm)',
+        sum: 'Bài đọc giải thích sâu răng ở người: một loại vi khuẩn ăn đường trong thức ăn, chuyển hóa đường thành axit; axit hòa tan men răng — lớp phủ ngoài của răng — rồi tấn công dây thần kinh, gây đau răng. Ở động vật, sâu răng hiếm gặp; ở phương Tây giàu có, bệnh này đã lan rộng như dịch.',
+        quote: 'In most animals, dental decay is a rare problem.',
+        items: [
+          ['1. Theo bài đọc, động vật có thường bị sâu răng không? (A. Không bao giờ · B. Hiếm khi · C. Thường như người · D. Thường hơn người)', 'B — They seldom suffer from it.'],
+          ['2. Vấn đề sâu răng ở các nước phương Tây giàu có thế nào? (A. Giảm dần · B. Không đổi · C. Tăng chậm · D. Gần như ngoài tầm kiểm soát)', 'D — It is now virtually out of control.'],
+          ['3. Sâu răng không thể bắt đầu cho đến khi vi khuẩn tạo ra… (A. thức ăn từ đường · B. đường từ thức ăn · C. axit từ đường · D. đường từ axit)', 'C — acid from sugar.'],
+          ['4. Thuật ngữ "tooth decay" chỉ… (A. tiêu hóa thức ăn · B. chuyển hóa đường · C. tạo axit · D. hòa tan men răng)', 'D — dissolution of the enamel.'],
+          ['5. Câu cuối nghĩa là đau răng là tình trạng thường… (A. không chịu nổi · B. bất ngờ · C. hơi khó chịu · D. khó chịu nhưng chịu được)', 'A — unbearable.']
+        ] },
+      { name: 'Part I — Section 3. Open cloze — bức thư của Sally (10 chỗ trống × 1,0 = 10 điểm)',
+        sum: 'Bức thư thân mật: Sally xin lỗi vì trả lời thư muộn — cô bận tìm việc mới vì không hợp với sếp cũ; cô liên hệ một công ty môi giới việc làm, được mời phỏng vấn gần như ngay lập tức, và mời John tới bữa tiệc nhỏ thứ Bảy tới. Gaps nằm rải trong thư (giới từ, từ nối, dạng từ). Trích ngắn: "I apologize (1)… not replying sooner, but I’ve been busy looking for a new job."',
+        items: [
+          ['(1) I apologize ___ not replying sooner', 'for'],
+          ['(2) I was ready for ___ change', 'a'],
+          ['(3) I just didn’t get ___ well with my old boss', 'on'],
+          ['(4) I got in touch ___ this employment bureau', 'with'],
+          ['(5) ___, my surprise, they contacted me almost immediately', 'To'],
+          ['(6) …asked if I ___ like to go for an interview', 'would'],
+          ['(7) I’m inviting a ___ friends to a small party', 'few'],
+          ['(8) Do come, and ___ you like, bring your new girlfriend', 'if'],
+          ['(9) …let me know, just ___ case I end up inviting too many people', 'in'],
+          ['(10) It seems ages ___ we saw each other last', 'since']
+        ] },
+      { name: 'Part II — Section 1. Word formation (5 câu × 1,0 = 5 điểm)',
+        items: [
+          ['This company has been operating ___ as Impex International. (SUCCESSFUL)', 'successfully'],
+          ['We don’t think that there is a ___ to this problem. (SOLVE)', 'solution'],
+          ['Joe’s first attempt to swim the channel ended in ___. (FALL)', 'failure'],
+          ['Buyers must take delivery of the goods within seven days of ___ at the port of discharge. (ARRIVE)', 'arrival'],
+          ['Taxation has been used to increase the price and reduce the ___ of cigarettes. (CONSUME)', 'consumption']
+        ] },
+      { name: 'Part II — Section 2. Guided sentences (10 câu × 1,5 = 15 điểm)',
+        items: [
+          ['I / arrive / home / last night / after / pleasant flight / London / Rome', 'I arrived home last night after a pleasant flight from London to Rome.'],
+          ['I / sorry / tell / you / your flight / Swiss / be / delay', 'I’m sorry to tell you that your flight to Swiss has been delayed.'],
+          ['He / prefer / golf / tennis', 'He prefers golf to tennis.'],
+          ['Would / you / mind / wait / a few minutes?', 'Would you mind waiting for a few minutes?'],
+          ['He / suggest / invite / Browns / party / Sunday', 'He suggested / suggests inviting the Browns to the party on Sunday.'],
+          ['Last time / it / show (snow) / here / be / six years ago', 'The last time it snowed here was 6 years ago.'],
+          ['If he / drive / more carefully / he / not / have / accident', 'If he had driven more carefully, he wouldn’t have had an accident.'],
+          ['Most / child’s life / spend / play', 'Most of a child’s life is spent in playing.'],
+          ['We / arrive / late / see / first film', 'We arrived too late to see the first film.'],
+          ['Fog / prevent / us / drive', 'The fog prevented us from driving.']
+        ] },
+      { name: 'Part II — Section 3. Sentence transformations (5 câu × 2,0 = 10 điểm theo đáp án mẫu)',
+        items: [
+          ['Mark is too young to see the horror film. → Mark is not ___', 'Mark is not old enough to see the horror film.'],
+          ['Although he took a taxi, Bill arrived late for the meeting. → In spite ___', 'In spite of taking the taxi, Bill arrived late for the meeting.'],
+          ['If you wanted my advice, I would forget about buying a new house. → If I ___', 'If I were you, I wouldn’t buy that house.'],
+          ['He plays the guitar better than I do. → I don’t ___', 'I don’t play the guitar as well as he does.'],
+          ['Someone is going to tune my piano tomorrow. → I’m going ___', 'I’m going to have my piano tuned tomorrow.']
+        ] },
+      { name: 'Part II — Section 4. Translation (10 câu × 1,5 = 15 điểm) — Anh → Việt',
+        items: [
+          ['After an absence of thirty years, I decided to visit my old school again.', 'Sau 30 năm vắng mặt, tôi quyết định về thăm lại trường cũ.'],
+          ['The power of man in conquering nature is unlimited indeed, and his true helper is science.', 'Khả năng chinh phục thiên nhiên của con người quả thực là vô hạn, và nhân tố trợ lực chính là khoa học.'],
+          ['No visitor to Britain should go home without spending some time in Stratford-upon-Avon.', 'Không du khách nào tới Anh rồi trở về mà không giành một khoảng thời gian ở Stratford-upon-Avon.'],
+          ['Without doubt, Stratford is best known as the town where the playwright William Shakespeare (1564–1616) was born and died.', 'Không còn nghi ngờ gì nữa, Stratford được biết đến nhiều nhất như là thành phố nơi nhà soạn kịch William Shakespeare (1564–1616) đã sinh ra và lớn lên.'],
+          ['Columbus Day is celebrated on the 12th of October because on that day of 1492, Christopher Columbus first landed in America.', 'Lễ kỉ niệm ngày Cô-lôm-bô được tổ chức vào 12 tháng 10 vì vào ngày đó năm 1492, Christopher Columbus lần đầu tiên đặt chân lên Châu Mỹ.']
+        ] },
+      { name: 'Part II — Section 4. Translation — Việt → Anh',
+        items: [
+          ['Hôm nay giá vàng và đô la đều giảm mạnh trên khắp thị trường Việt Nam.', 'The price of gold and dollar decreases sharply / falls sharply on the Vietnamese markets today.'],
+          ['Tôi lấy làm tiếc phải thông báo với chị rằng năm nay chị không được tăng lương.', 'I regret / I’m sorry to inform you that you won’t get a pay rise this year.'],
+          ['Đây là vấn đề khó khăn nhất mà tôi phải đương đầu.', 'This is the most difficult problem (that) I have to cope with / face / confront.'],
+          ['Cuộc sống ở nông thôn có tốt hơn ở thành phố hay không còn tùy thuộc vào quan điểm của mỗi người.', 'Whether (or not) life in the countryside is better than life in the city depends on each person’s viewpoint.'],
+          ['Mặc dù Tiếng Anh được ít người nói hơn tiếng Trung Quốc, nhưng nó là ngôn ngữ mang tính quốc tế.', 'Although English is spoken by fewer people than Chinese is, it is the most international language.']
+        ] }
+    ];
+
+    /* Đề các năm — link thư mục Drive Gonnapass (chưa kiểm tra nội dung từng thư mục) */
+    var PAST = [
+      [2010, 'https://drive.google.com/drive/folders/1EmsTtaNRLl-9Tp-KFY59tdpw1fyUShfA'],
+      [2011, 'https://drive.google.com/drive/folders/1AmqdCCRe562ydSRqVsnab7q-PS1e_D_N'],
+      [2012, 'https://drive.google.com/drive/folders/17vI-BgUHl_mRPL9O6Q97LGqf0I84XnzE'],
+      [2013, 'https://drive.google.com/drive/folders/1nIfrty8EDpKIeUNWEYmCSCVHeXwIm8FW'],
+      [2014, 'https://drive.google.com/drive/folders/1J1ZpYQ5g5RrYr57iTQR91MawfsfmiJcK'],
+      [2015, 'https://drive.google.com/drive/folders/1qkRIp7rmC5H5l2rep-3o3ikILCtUvCqk'],
+      [2016, 'https://drive.google.com/drive/folders/1gCIwXv-U16WaqMQIujqWyyjhCACc6FNl'],
+      [2017, 'https://drive.google.com/drive/folders/1FXnc_ed3bT4Q4CZ7MBcGDqk9le7lcPK8'],
+      [2018, 'https://drive.google.com/drive/folders/10YqRVKdzeZWvOrTk7c0Ubh3NkmWav63W'],
+      [2019, 'https://drive.google.com/drive/folders/1BRdGV7Uv3aSleL0ex8ZVS8pArTAxySey'],
+      [2020, 'https://drive.google.com/drive/folders/1iQyex5GX8KltL66Tv006Q70aApTPsHSV'],
+      [2021, null, 'Không tổ chức thi do Covid.'],
+      [2022, 'https://drive.google.com/drive/folders/1h6_DS4FCkCnUbCNU75Tj3AbsQOJO9uwa'],
+      [2023, 'https://drive.google.com/drive/folders/1x9uvGH0Fh9IiR2jm-6hy5OoFaw6LP1aj', 'Đã có nghiên cứu kiểm chứng toàn văn đề chẵn/lẻ năm 2023 từ nguồn khác; thư mục Drive này vẫn chưa kiểm tra nội dung.'],
+      [2024, 'https://drive.google.com/drive/folders/1Gh4nutpv7jiIchJ0KHe-SG-xBVdwxvpy', 'Đã có nghiên cứu kiểm chứng toàn văn đề chẵn/lẻ năm 2024 từ nguồn khác; thư mục Drive này vẫn chưa kiểm tra nội dung.'],
+      [2025, 'https://luyenthicpa.com/', 'Chưa tìm thấy file đề 2025 đã xác minh — liên kết chỉ tới trang tổng hợp của luyenthicpa.com, chưa xác minh file.']
+    ];
+
+    /* Danh mục nguồn (9 mục theo Danh_muc_nguon.csv của bộ tài liệu) */
+    var SOURCES = [
+      ['Chuyên đề 7 Tiếng Anh 2026 — PDF lưu trữ (Tạp chí Kế toán & Kiểm toán)', 'https://i.ex-cdn.com/tapchiketoankiemtoan.vn/files/attach/2026/07/14/cd-7-1416.pdf', 'Tài liệu được Tạp chí dẫn là chuyên đề 2026; 25 trang; nội dung chính thức do Bộ Tài chính biên soạn.', 't26'],
+      ['Bộ Tài chính — Chuyên đề 7 (PDF trên mof.gov.vn)', 'https://mof.gov.vn/api/mediafile/media-article/5b07dfc3-2361-4f73-bbbc-0537cf11f8ad/bc84ab0e-471d-4f3b-b7e5-533bde037ae8.pdf', 'Bản trên website Bộ Tài chính — chưa xác nhận là bản 2026.'],
+      ['Bài giới thiệu tài liệu ôn thi CPA 2026 — Tạp chí Kế toán & Kiểm toán', 'https://tapchiketoankiemtoan.vn/tai-lieu-on-thi-chung-chi-kiem-toan-vien-nam-2026-d6563.html', 'Bài giới thiệu bộ tài liệu ôn thi chứng chỉ kiểm toán viên năm 2026.'],
+      ['Thông báo 226/TB-HĐTKTV2026 về kỳ thi kiểm toán viên 2026', 'https://thuvienphapluat.vn/chinh-sach-phap-luat-moi/vn/ho-tro-phap-luat/chinh-sach-moi/123893/thong-bao-226-tb-hdtktv2026-ve-ky-thi-kiem-toan-vien-nam-2026-ra-sao', 'Lịch thi: 06/12/2026, Ngoại ngữ 14:00–16:00.'],
+      ['Đề thi các năm 2010–2024 — danh mục Gonnapass', 'https://gonnapass.com/full-bo-de-thi-cpa-mon-tieng-anh-tat-ca-cac-nam/', 'Trang tổng hợp liên kết Drive; không bảo đảm mỗi link vẫn hoạt động.'],
+      ['Tài liệu tiếng Anh CPA — Gonnapass', 'https://gonnapass.com/tai-lieu-thi-cpa-mon-tieng-anh/', 'Danh mục tài liệu lý thuyết, bài tập, đề và lời giải.'],
+      ['Đề thi 2025 — trang tổng hợp luyenthicpa.com', 'https://luyenthicpa.com/', 'Bộ đề được luyenthicpa.com liệt kê; cần kiểm tra nguồn trước khi dùng — chưa xác minh file đề 2025.'],
+      ['Đề thi 2023 — bài tham khảo TACA', 'https://taca.edu.vn/de-thi-cpa-2023-mon-tieng-anh/', 'Đề thi năm 2023 do một đơn vị đào tạo đăng tải.'],
+      ['Đề thi các năm — tổng hợp TACA', 'https://taca.edu.vn/de-thi-mon-tieng-anh-cpa-cac-nam/', 'Trang tổng hợp đề thi môn tiếng Anh CPA các năm.']
+    ];
+
+    /* ============================================================
+       RENDER + TƯƠNG TÁC
+       ============================================================ */
+    /* ----- Countdown ----- */
+    (function () {
+      var target = new Date('2026-12-06T14:00:00+07:00').getTime();
+      function tick() {
+        var diff = target - Date.now();
+        var el = $('cdNum'), lb = $('cdLbl');
+        if (diff <= 0) { el.textContent = '0'; lb.textContent = 'Ngày thi đã tới / đã qua — chúc bạn thi tốt!'; return; }
+        var days = Math.floor(diff / 86400000);
+        var hrs = Math.floor((diff % 86400000) / 3600000);
+        var mins = Math.floor((diff % 3600000) / 60000);
+        el.textContent = days;
+        var rem = hrs > 0 ? ' (cộng thêm khoảng ' + hrs + ' giờ ' + mins + ' phút)' : (mins > 0 ? ' (cộng thêm khoảng ' + mins + ' phút)' : '');
+        lb.textContent = 'ngày nữa tới ngày thi' + rem + ' — Thi viết 120 phút, 14:00–16:00, Chủ nhật 6/12/2026';
+      }
+      tick(); setInterval(tick, 60000);
+    })();
+
+    /* ----- Lộ trình 30 ngày ----- */
+    var PLAN_START = new Date('2026-11-06T00:00:00+07:00').getTime();
+    function planGo(link) {
+      if (!link) return;
+      var type = link[0], v = link[1];
+      if (type === 'grammar') {
+        var el = $('gtopic-' + v);
+        if (el) { el.open = true; el.scrollIntoView({ behavior: 'smooth', block: 'start' }); }
+      } else if (type === 'reading') {
+        var r = $('reading-' + v);
+        if (r) { r.open = true; r.scrollIntoView({ behavior: 'smooth', block: 'start' }); }
+      } else if (type === 'mock') {
+        $('examSel').value = String(v - 1); renderExam();
+        document.getElementById('thithu').scrollIntoView({ behavior: 'smooth' });
+      } else if (type === 'mockread') {
+        walkShow(v - 1);
+        document.getElementById('giaide').scrollIntoView({ behavior: 'smooth' });
+      } else if (type === 'anchor') {
+        document.getElementById(v).scrollIntoView({ behavior: 'smooth' });
+      }
+    }
+    (function renderPlan() {
+      var todayIdx = Math.floor((Date.now() - PLAN_START) / 86400000) + 1; // ngày 1 = 06/11
+      var html = '';
+      PLAN.forEach(function (d, i) {
+        var day = i + 1, done = !!P.planDone[day], isToday = day === todayIdx;
+        html += '<div class="pday' + (isToday ? ' today' : '') + '">' +
+          '<button class="tick' + (done ? ' on' : '') + '" type="button" data-plan="' + day + '" aria-label="Đánh dấu ngày ' + day + ' đã học xong">✓</button>' +
+          '<span class="dn">Ngày ' + day + '</span>' +
+          '<span class="pt">' + esc(d[0]) + (isToday ? ' <span class="todaytag">· Hôm nay</span>' : '') +
+          ' <a href="#" data-plango="' + i + '">Tới mục này →</a></span></div>';
+      });
+      $('planGrid').innerHTML = html;
+      Array.prototype.forEach.call(document.querySelectorAll('[data-plan]'), function (b) {
+        b.addEventListener('click', function () {
+          var d = b.getAttribute('data-plan');
+          P.planDone[d] = !P.planDone[d]; if (!P.planDone[d]) delete P.planDone[d];
+          b.classList.toggle('on', !!P.planDone[d]); save();
+        });
+      });
+      Array.prototype.forEach.call(document.querySelectorAll('[data-plango]'), function (a) {
+        a.addEventListener('click', function (e) { e.preventDefault(); planGo(PLAN[+a.getAttribute('data-plango')][1]); });
+      });
+    })();
+
+    /* ----- Khung: 63 chức năng + 15 chủ điểm chính thức ----- */
+    $('funcList').innerHTML = FUNCS.map(function (f, i) {
+      return '<li style="margin:5px 0"><b>' + esc(f[0]) + '</b> — <span class="mini">Ví dụ: ' + esc(f[1]) + '</span></li>';
+    }).join('');
+    $('officialTopics').innerHTML = OFFICIAL.map(function (t) { return '<li style="margin:5px 0">' + esc(t) + '</li>'; }).join('');
+
+    /* ----- Ngữ pháp thực hành ----- */
+    function ansLine(main, alts, note) {
+      var s = 'Đáp án: <b>' + esc(main) + '</b>';
+      if (alts && alts.length) s += ' — đáp án khác cũng đúng: <b>' + esc(alts.join(' / ')) + '</b>';
+      if (note) s += '<br>' + esc(note);
+      return s;
+    }
+    (function renderGrammar() {
+      var html = '';
+      GRAMMAR.forEach(function (g, gi) {
+        var n = gi + 1, done = !!P.topicsDone[n];
+        html += '<details class="fold" id="gtopic-' + n + '"><summary>Chủ điểm ' + (n < 10 ? '0' : '') + n + ' — ' + esc(g.t) +
+          (done ? ' <span class="tag">Đã học</span>' : '') + '</summary><div class="body">' +
+          '<p style="margin-top:0"><b>Quy tắc cốt lõi:</b> ' + esc(g.rule) + '</p>' +
+          '<p><b>Ví dụ:</b> ' + g.ex.map(function (e) { return '<i>' + esc(e) + '</i>'; }).join(' · ') + '</p>';
+        g.exs.forEach(function (ex, ei) {
+          var id = 'g' + n + '-' + (ei + 1);
+          html += '<div class="qitem"><div class="qq">' + (ei + 1) + '. ' + esc(ex[0]) + '</div>' +
+            '<div class="qrow"><input class="ans" id="in-' + id + '" type="text" placeholder="Điền đáp án…" autocomplete="off">' +
+            '<button class="btn ghost small" type="button" data-check="' + id + '">Kiểm tra</button>' +
+            '<button class="btn ghost small" type="button" data-reveal="' + id + '">Xem đáp án</button></div>' +
+            '<div class="mini" id="fb-' + id + '" style="margin-top:6px"></div>' +
+            '<div class="refans" id="ra-' + id + '"><span class="lbl">Đáp án tham khảo · Đã kiểm định</span><br>' + ansLine(ex[1], ex[2], ex[3]) + '</div></div>';
+        });
+        html += '<p style="margin-bottom:2px"><button class="btn small" type="button" data-done="' + n + '">' +
+          (done ? 'Bỏ đánh dấu đã học' : 'Đánh dấu đã học chủ điểm này') + '</button></p></div></details>';
+      });
+      $('grammarList').innerHTML = html;
+      function getEx(id) {
+        var p = id.substring(1).split('-'); return GRAMMAR[+p[0] - 1].exs[+p[1] - 1];
+      }
+      Array.prototype.forEach.call(document.querySelectorAll('[data-check]'), function (b) {
+        b.addEventListener('click', function () {
+          var id = b.getAttribute('data-check'), ex = getEx(id), val = $('in-' + id).value;
+          var all = [ex[1]].concat(ex[2] || []);
+          var fb = $('fb-' + id);
+          if (!val.trim()) { fb.innerHTML = '<span class="badmsg">Hãy nhập đáp án trước.</span>'; return; }
+          if (checkAns(val, all)) {
+            fb.innerHTML = '<span class="okmsg">Đúng!</span>' + (ex[3] ? ' <span class="mini">' + esc(ex[3]) + '</span>' : '');
+          } else {
+            fb.innerHTML = '<span class="badmsg">Chưa đúng — thử lại hoặc bấm "Xem đáp án".</span>';
+          }
+        });
+      });
+      Array.prototype.forEach.call(document.querySelectorAll('[data-reveal]'), function (b) {
+        b.addEventListener('click', function () { $('ra-' + b.getAttribute('data-reveal')).classList.toggle('show'); });
+      });
+      Array.prototype.forEach.call(document.querySelectorAll('[data-done]'), function (b) {
+        b.addEventListener('click', function () {
+          var n = b.getAttribute('data-done');
+          P.topicsDone[n] = !P.topicsDone[n]; if (!P.topicsDone[n]) delete P.topicsDone[n];
+          save(); renderGrammar(); updateContinue();
+        });
+      });
+    })();
+
+    /* ----- Thẻ "Tiếp tục học" ----- */
+    function updateContinue() {
+      var doneCount = Object.keys(P.topicsDone).filter(function (k) { return P.topicsDone[k]; }).length;
+      $('continueBar').style.width = Math.round(doneCount / 15 * 100) + '%';
+      var next = 0;
+      for (var i = 1; i <= 15; i++) { if (!P.topicsDone[i]) { next = i; break; } }
+      if (doneCount === 0) {
+        $('continueTxt').textContent = 'Chưa bắt đầu — hãy làm bài chẩn đoán đầu vào hoặc mở chủ điểm ngữ pháp đầu tiên.';
+      } else if (next === 0) {
+        $('continueTxt').textContent = 'Đã học đủ 15/15 chủ điểm ngữ pháp. Tiếp theo: làm đề thi thử 120 phút.';
+        $('continueGo').textContent = 'Tới phần thi thử →';
+        $('continueCard').setAttribute('href', '#thithu');
+      } else {
+        $('continueTxt').textContent = 'Đã học ' + doneCount + '/15 chủ điểm ngữ pháp. Chủ điểm tiếp theo: ' + (next < 10 ? '0' : '') + next + ' — ' + GRAMMAR[next - 1].t + '.';
+        $('continueGo').textContent = 'Học tiếp chủ điểm ' + (next < 10 ? '0' : '') + next + ' →';
+      }
+    }
+    $('continueCard').addEventListener('click', function (e) {
+      var doneCount = Object.keys(P.topicsDone).filter(function (k) { return P.topicsDone[k]; }).length;
+      if (doneCount === 15) return; // href đã trỏ #thithu
+      e.preventDefault();
+      var next = 1;
+      for (var i = 1; i <= 15; i++) { if (!P.topicsDone[i]) { next = i; break; } }
+      var el = $('gtopic-' + next);
+      if (el) { el.open = true; el.scrollIntoView({ behavior: 'smooth' }); }
+    });
+    updateContinue();
+
+    /* ----- Chẩn đoán đầu vào ----- */
+    (function renderDiag() {
+      var html = '';
+      DIAG.forEach(function (d, i) {
+        var saved = (P.diagAns || {})[i] || '';
+        html += '<div class="qitem"><div class="qq"><b>Câu ' + (i + 1) + '</b>' +
+          (d.topic ? ' <span class="tag ref">Chủ điểm ' + (d.topic < 10 ? '0' : '') + d.topic + '</span>' : ' <span class="tag ref">Đọc hiểu</span>') +
+          '<br>' + esc(d.q) + '</div>' +
+          '<div class="qrow"><input class="ans" id="dg-' + i + '" type="text" placeholder="Nhập câu trả lời…" autocomplete="off" value="' + esc(saved) + '">' +
+          '<button class="btn ghost small" type="button" data-dgcheck="' + i + '">Chấm câu này</button></div>' +
+          '<div class="mini" id="dgfb-' + i + '" style="margin-top:6px"></div></div>';
+      });
+      $('diagList').innerHTML = html;
+      function gradeDiag(i, showFb) {
+        var d = DIAG[i], val = $('dg-' + i).value;
+        P.diagAns = P.diagAns || {}; P.diagAns[i] = val; save();
+        var ok;
+        if (d.type === 'fill') ok = checkAns(val, d.a);
+        else { var n = norm(val); ok = d.a.some(function (a) { return n.indexOf(norm(a)) >= 0; }); }
+        if (showFb) {
+          var fb = $('dgfb-' + i);
+          var show = d.type === 'fill' ? d.a[0] : d.show;
+          fb.innerHTML = ok
+            ? '<span class="okmsg">Đúng!</span> Đáp án: <b>' + esc(show) + '</b>' + (d.note ? ' <span class="mini">' + esc(d.note) + '</span>' : '')
+            : '<span class="badmsg">Chưa đúng.</span> Đáp án đúng: <b>' + esc(show) + '</b>' + (d.note ? ' <span class="mini">' + esc(d.note) + '</span>' : '');
+        }
+        return ok;
+      }
+      Array.prototype.forEach.call(document.querySelectorAll('[data-dgcheck]'), function (b) {
+        b.addEventListener('click', function () { gradeDiag(+b.getAttribute('data-dgcheck'), true); });
+      });
+      $('diagScoreBtn').addEventListener('click', function () {
+        var score = 0, weak = [];
+        DIAG.forEach(function (d, i) {
+          var ok = gradeDiag(i, false);
+          if (ok) score++;
+          else if (d.topic) weak.push(d.topic);
+        });
+        P.diag = { score: score, weak: weak, when: new Date().toISOString() }; save();
+        $('diagSummary').innerHTML = '<b>' + score + '/12 câu đúng.</b>';
+        var res = '';
+        if (weak.length) {
+          res = '<p style="margin:4px 0">Chủ điểm cần học lại: ' + weak.map(function (t) {
+            return '<a href="#nguphap" data-weak="' + t + '">Chủ điểm ' + (t < 10 ? '0' : '') + t + ' — ' + esc(GRAMMAR[t - 1].t) + '</a>';
+          }).join(' · ') + '</p><p class="mini">Làm thêm 3 bài tập trong từng chủ điểm ở mục Ngữ pháp để củng cố.</p>';
+        } else if (score === 12) {
+          res = '<p style="margin:4px 0" class="okmsg">Xuất sắc — nền ngữ pháp và đọc hiểu đều vững. Hãy chuyển sang luyện đề thi thử.</p>';
+        } else {
+          res = '<p style="margin:4px 0">Phần ngữ pháp đã vững; hai câu đọc hiểu cần luyện thêm ở mục <a href="#dochieu">Đọc hiểu &amp; dịch</a>.</p>';
+        }
+        $('diagResult').innerHTML = res;
+        Array.prototype.forEach.call($('diagResult').querySelectorAll('[data-weak]'), function (a) {
+          a.addEventListener('click', function () {
+            var el = $('gtopic-' + a.getAttribute('data-weak'));
+            if (el) setTimeout(function () { el.open = true; el.scrollIntoView({ behavior: 'smooth' }); }, 60);
+          });
+        });
+      });
+      if (P.diag && typeof P.diag.score === 'number') {
+        $('diagSummary').innerHTML = '<b>Lần chẩn đoán gần nhất: ' + P.diag.score + '/12 câu đúng</b>' +
+          (P.diag.weak && P.diag.weak.length ? ' — chủ điểm yếu: ' + P.diag.weak.map(function (t) { return (t < 10 ? '0' : '') + t; }).join(', ') : '') + '.';
+      }
+    })();
+
+    /* ----- Từ vựng: bảng + CSV + flashcards ----- */
+    (function renderVocab() {
+      var html = '';
+      VOCAB.forEach(function (grp) {
+        html += '<div class="vgroup"><h3>' + esc(grp.g) + ' <span class="tag ref">' + grp.items.length + ' thuật ngữ</span></h3>' +
+          '<table class="tb"><tr><th style="width:34%">English</th><th>Tiếng Việt</th></tr>';
+        grp.items.forEach(function (it) {
+          html += '<tr><td><b>' + esc(it[0]) + '</b></td><td>' + esc(it[1]) +
+            (it[2] ? ' <span class="mini">(chính xác hơn: ' + esc(it[2]) + ')</span>' : '') + '</td></tr>';
+        });
+        html += '</table></div>';
+      });
+      $('vocabTables').innerHTML = html;
+      $('csvBtn').addEventListener('click', function () {
+        var rows = ['English,Vietnamese,Category'];
+        VOCAB.forEach(function (grp) {
+          grp.items.forEach(function (it) {
+            function q(s) { return '"' + String(s).replace(/"/g, '""') + '"'; }
+            rows.push(q(it[0]) + ',' + q(it[1]) + ',' + q(grp.g));
+          });
+        });
+        var blob = new Blob(['\ufeff' + rows.join('\r\n')], { type: 'text/csv;charset=utf-8' });
+        var a = document.createElement('a');
+        a.href = URL.createObjectURL(blob); a.download = 'Tu_vung_full.csv';
+        document.body.appendChild(a); a.click();
+        setTimeout(function () { URL.revokeObjectURL(a.href); a.remove(); }, 400);
+      });
+    })();
+
+    var fcState = { list: [], idx: 0, flipped: false };
+    function fcBuild() {
+      var g = $('fcGroup').value;
+      fcState.list = [];
+      VOCAB.forEach(function (grp) {
+        if (g === 'all' || grp.g === g) grp.items.forEach(function (it) { fcState.list.push({ en: it[0], vi: it[1], note: it[2], hint: it[3], g: grp.g }); });
+      });
+      fcState.idx = 0; fcState.flipped = false; fcShow();
+    }
+    function fcShow() {
+      var c = fcState.list[fcState.idx];
+      if (!c) { $('fcWord').textContent = '—'; return; }
+      var dir = $('fcDir').value;
+      var front = dir === 'envi' ? c.en : (c.vi + (c.hint ? ' (' + c.hint + ')' : ''));
+      var back = dir === 'envi' ? (c.vi + (c.note ? ' — chính xác hơn: ' + c.note : '')) : c.en;
+      $('fcWord').textContent = fcState.flipped ? back : front;
+      $('fcSide').textContent = (fcState.flipped ? 'Mặt sau' : 'Mặt trước') + ' · ' + c.g;
+      $('fcHint').textContent = fcState.flipped ? '' : 'Bấm vào thẻ để lật';
+      $('fcCount').textContent = 'Thẻ ' + (fcState.idx + 1) + '/' + fcState.list.length;
+      var known = P.fcKnown && P.fcKnown[c.en];
+      $('fcKnownInfo').textContent = known ? 'Thẻ này đã đánh dấu "đã thuộc".' : '';
+      $('fcKnown').textContent = known ? 'Bỏ đánh dấu đã thuộc' : 'Đánh dấu đã thuộc';
+    }
+    (function initFlash() {
+      var sel = $('fcGroup');
+      sel.innerHTML = '<option value="all">Tất cả 10 nhóm (147 thẻ)</option>' + VOCAB.map(function (g) {
+        return '<option value="' + esc(g.g) + '">' + esc(g.g) + ' (' + g.items.length + ')</option>';
+      }).join('');
+      sel.addEventListener('change', fcBuild);
+      $('fcDir').addEventListener('change', function () { fcState.flipped = false; fcShow(); });
+      $('fcFlip').addEventListener('click', function () { fcState.flipped = !fcState.flipped; fcShow(); });
+      $('fcCard').addEventListener('click', function () { fcState.flipped = !fcState.flipped; fcShow(); });
+      $('fcCard').addEventListener('keydown', function (e) { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); fcState.flipped = !fcState.flipped; fcShow(); } });
+      $('fcNext').addEventListener('click', function () { fcState.idx = (fcState.idx + 1) % fcState.list.length; fcState.flipped = false; fcShow(); });
+      $('fcPrev').addEventListener('click', function () { fcState.idx = (fcState.idx - 1 + fcState.list.length) % fcState.list.length; fcState.flipped = false; fcShow(); });
+      $('fcShuffle').addEventListener('click', function () {
+        for (var i = fcState.list.length - 1; i > 0; i--) { var j = Math.floor(Math.random() * (i + 1)); var t = fcState.list[i]; fcState.list[i] = fcState.list[j]; fcState.list[j] = t; }
+        fcState.idx = 0; fcState.flipped = false; fcShow();
+      });
+      $('fcKnown').addEventListener('click', function () {
+        var c = fcState.list[fcState.idx]; if (!c) return;
+        P.fcKnown = P.fcKnown || {};
+        if (P.fcKnown[c.en]) delete P.fcKnown[c.en]; else P.fcKnown[c.en] = 1;
+        save(); fcShow();
+      });
+      fcBuild();
+    })();
+
+    /* ----- Đọc hiểu & dịch ----- */
+    (function renderReading() {
+      var html = '';
+      READINGS.forEach(function (r, ri) {
+        html += '<details class="fold" id="reading-' + (ri + 1) + '"><summary>' + esc(r.title) + '</summary><div class="body">' +
+          '<p style="margin-top:0"><b>Tóm tắt:</b> ' + esc(r.sum) + '</p>' +
+          '<p><b>Trích ngắn:</b> <i>“' + esc(r.quote) + '”</i></p>';
+        r.qs.forEach(function (q, qi) {
+          var id = 'rd' + (ri + 1) + '-' + (qi + 1);
+          html += '<div class="qitem"><div class="qq">' + (qi + 1) + '. ' + esc(q[0]) + '</div>' +
+            '<div class="qrow"><input class="ans" id="in-' + id + '" type="text" placeholder="Câu trả lời của bạn…" autocomplete="off">' +
+            '<button class="btn ghost small" type="button" data-rreveal="' + id + '">Xem đáp án tham khảo</button></div>' +
+            '<div class="refans" id="ra-' + id + '"><span class="lbl">Đáp án tham khảo · Đã kiểm định</span><br>' + esc(q[1]) +
+            (q[2] ? '<br><span class="mini">' + esc(q[2]) + '</span>' : '') + '</div></div>';
+        });
+        html += '</div></details>';
+      });
+      $('readingList').innerHTML = html;
+      var thtml = '';
+      TRANS.forEach(function (t, i) {
+        var id = 'tr' + (i + 1);
+        thtml += '<div class="qitem"><div class="qq">' + (i + 1) + '. ' + esc(t[0]) + '</div>' +
+          '<div class="qrow"><input class="ans" id="in-' + id + '" type="text" placeholder="Bản dịch của bạn…" autocomplete="off">' +
+          '<button class="btn ghost small" type="button" data-rreveal="' + id + '">Xem đáp án tham khảo</button></div>' +
+          '<div class="refans" id="ra-' + id + '"><span class="lbl">Đáp án dịch tham khảo · Đã kiểm định</span><br>' + esc(t[1]) + '</div></div>';
+      });
+      $('transList').innerHTML = thtml;
+      Array.prototype.forEach.call(document.querySelectorAll('[data-rreveal]'), function (b) {
+        b.addEventListener('click', function () { $('ra-' + b.getAttribute('data-rreveal')).classList.toggle('show'); });
+      });
+      // khôi phục ô tự làm đã lưu
+      P.readAns = P.readAns || {};
+      Object.keys(P.readAns).forEach(function (id) { var el = $('in-' + id); if (el) el.value = P.readAns[id]; });
+      Array.prototype.forEach.call(document.querySelectorAll('#dochieu input.ans'), function (inp) {
+        inp.addEventListener('input', function () {
+          var id = inp.id.replace('in-', '');
+          P.readAns = P.readAns || {}; P.readAns[id] = inp.value; save();
+        });
+      });
+    })();
+
+    /* ----- Dùng chung: làm phẳng 1 section của đề thành danh sách câu ----- */
+    function flatItems(sec) {
+      var out = [];
+      sec.groups.forEach(function (g, gi) {
+        g.items.forEach(function (it, ii) { out.push({ g: gi, i: ii, q: it[0], a: it[1], note: it[2] }); });
+      });
+      return out;
+    }
+    function secMax(sec) {
+      var n = 0; sec.groups.forEach(function (g) { n += g.items.length; });
+      return n * sec.pts;
+    }
+    function mockTotal(m) { return m.sections.reduce(function (s, x) { return s + secMax(x); }, 0); }
+
+    /* ----- Giải đề từng câu ----- */
+    var walkIdx = 0;
+    function renderWalk() {
+      var m = MOCKS[walkIdx];
+      $('walkTab1').className = 'btn small' + (walkIdx === 0 ? '' : ' ghost');
+      $('walkTab2').className = 'btn small' + (walkIdx === 1 ? '' : ' ghost');
+      var html = '<div class="card"><h3 style="margin-top:0">' + esc(m.name) + ' — 65 câu · khung tham khảo ' + mockTotal(m) + ' điểm · 120 phút</h3>' +
+        '<p class="mini" style="margin-top:0">Đề tự biên soạn phục vụ luyện tập, không phải đề thi chính thức. Đáp án tham khảo; cách diễn đạt tương đương đúng ngữ pháp/ngữ nghĩa có thể được chấp nhận.</p>';
+      m.sections.forEach(function (sec) {
+        html += '<h3 style="margin:20px 0 2px">' + esc(sec.part) + ' · ' + esc(sec.name) + ' <span class="tag ref">' + String(sec.pts).replace('.', ',') + ' điểm/câu · tối đa ' + secMax(sec) + ' điểm</span> <span class="tag' + (sec.status === 'Đã kiểm định' ? '' : ' warn') + '">' + esc(sec.status) + '</span></h3>';
+        sec.groups.forEach(function (g, gi) {
+          if (g.head) html += '<p style="margin:10px 0 4px"><b>' + esc(g.head) + '</b></p>';
+          if (g.bank) html += '<p class="mini" style="margin:2px 0 8px"><b>WORD BANK:</b> ' + esc(g.bank) + '</p>';
+          if (g.text) html += '<p style="background:var(--surface2);border-radius:8px;padding:10px 14px;margin:6px 0">' + esc(g.text) + '</p>';
+          g.items.forEach(function (it, ii) {
+            var id = 'w' + walkIdx + '-' + sec.key + '-' + gi + '-' + ii;
+            var saved = (P.walkAns && P.walkAns[id]) || '';
+            html += '<div class="qitem"><div class="qq">' + esc(it[0]) + '</div>' +
+              '<div class="qrow"><input class="ans" data-walkin="' + id + '" type="text" placeholder="Câu trả lời của bạn…" autocomplete="off" value="' + esc(saved) + '">' +
+              '<button class="btn ghost small" type="button" data-wreveal="' + id + '">Xem đáp án</button></div>' +
+              '<div class="refans" id="ra-' + id + '"><span class="lbl">Đáp án tham khảo · ' + esc(sec.status) + '</span><br>' + esc(it[1]) +
+              (it[2] ? '<br><span class="mini">' + esc(it[2]) + '</span>' : '') + '</div></div>';
+          });
+        });
+      });
+      html += '</div>';
+      $('walkBody').innerHTML = html;
+      Array.prototype.forEach.call($('walkBody').querySelectorAll('[data-wreveal]'), function (b) {
+        b.addEventListener('click', function () { $('ra-' + b.getAttribute('data-wreveal')).classList.toggle('show'); });
+      });
+      Array.prototype.forEach.call($('walkBody').querySelectorAll('[data-walkin]'), function (inp) {
+        inp.addEventListener('input', function () {
+          P.walkAns = P.walkAns || {}; P.walkAns[inp.getAttribute('data-walkin')] = inp.value; save();
+        });
+      });
+    }
+    function walkShow(i) { walkIdx = i; renderWalk(); }
+    $('walkTab1').addEventListener('click', function () { walkShow(0); });
+    $('walkTab2').addEventListener('click', function () { walkShow(1); });
+    renderWalk();
+
+    /* ----- Thi thử 120 phút ----- */
+    var examTimer = null, examLeft = 7200, examRunning = false, examSubmitted = false;
+    function fmtTime(s) { var m = Math.floor(s / 60), ss = s % 60; return (m < 10 ? '0' : '') + m + ':' + (ss < 10 ? '0' : '') + ss; }
+    function renderExam() {
+      examSubmitted = false;
+      $('examSubmit').disabled = true;
+      $('examResult').innerHTML = '';
+      var mi = +$('examSel').value, m = MOCKS[mi];
+      var savedAns = (P.examAns && P.examAns['m' + mi]) || {};
+      var html = '<div class="card"><h3 style="margin-top:0">' + esc(m.name) + ' — 65 câu · khung tham khảo ' + mockTotal(m) + ' điểm</h3>' +
+        '<p class="mini" style="margin-top:0">ĐỀ MÔ PHỎNG TỰ BIÊN SOẠN — không phải đề thi chính thức. Đáp án chỉ mở sau khi nộp bài.</p>';
+      m.sections.forEach(function (sec) {
+        html += '<h3 style="margin:20px 0 2px">' + esc(sec.part) + ' · ' + esc(sec.name) + ' <span class="tag ref">' + String(sec.pts).replace('.', ',') + ' điểm/câu · tối đa ' + secMax(sec) + ' điểm</span></h3>';
+        sec.groups.forEach(function (g, gi) {
+          if (g.head) html += '<p style="margin:10px 0 4px"><b>' + esc(g.head) + '</b></p>';
+          if (g.bank) html += '<p class="mini" style="margin:2px 0 8px"><b>WORD BANK:</b> ' + esc(g.bank) + '</p>';
+          if (g.text) html += '<p style="background:var(--surface2);border-radius:8px;padding:10px 14px;margin:6px 0">' + esc(g.text) + '</p>';
+          g.items.forEach(function (it, ii) {
+            var id = sec.key + '-' + gi + '-' + ii;
+            var long = sec.kind === 'open';
+            html += '<div class="qitem"><div class="qq">' + esc(it[0]) + '</div>' +
+              (long
+                ? '<textarea class="ans" data-exin="' + id + '" placeholder="Bài làm của bạn…">' + esc(savedAns[id] || '') + '</textarea>'
+                : '<input class="ans" data-exin="' + id + '" type="text" placeholder="Đáp án của bạn…" autocomplete="off" value="' + esc(savedAns[id] || '') + '">') +
+              '<div class="refans" data-exans="' + id + '"><span class="lbl">Đáp án tham khảo · ' + esc(sec.status) + '</span><br>' + esc(it[1]) +
+              (it[2] ? '<br><span class="mini">' + esc(it[2]) + '</span>' : '') + '</div></div>';
+          });
+        });
+      });
+      html += '</div>';
+      $('examBody').innerHTML = html;
+      Array.prototype.forEach.call($('examBody').querySelectorAll('[data-exin]'), function (inp) {
+        inp.addEventListener('input', function () {
+          P.examAns = P.examAns || {};
+          var key = 'm' + (+$('examSel').value);
+          P.examAns[key] = P.examAns[key] || {};
+          P.examAns[key][inp.getAttribute('data-exin')] = inp.value; save();
+        });
+      });
+    }
+    $('examSel').addEventListener('change', function () { stopTimer(); renderExam(); });
+    function stopTimer() {
+      if (examTimer) clearInterval(examTimer);
+      examTimer = null; examRunning = false;
+      $('timerBar').style.display = 'none';
+    }
+    $('examStart').addEventListener('click', function () {
+      if (examRunning) return;
+      examLeft = 7200; examRunning = true; examSubmitted = false;
+      $('timerBar').style.display = 'flex';
+      $('timerTxt').textContent = fmtTime(examLeft);
+      $('timerTxt').classList.remove('low');
+      $('timerState').textContent = 'Đang làm bài — hết giờ hệ thống tự nộp. Đáp án mở sau khi nộp.';
+      $('examSubmit').disabled = false;
+      examTimer = setInterval(function () {
+        examLeft--;
+        $('timerTxt').textContent = fmtTime(Math.max(examLeft, 0));
+        if (examLeft <= 300) $('timerTxt').classList.add('low');
+        if (examLeft <= 0) { submitExam(true); }
+      }, 1000);
+      document.getElementById('thithu').scrollIntoView({ behavior: 'smooth' });
+    });
+    $('examSubmit').addEventListener('click', function () { submitExam(false); });
+    function submitExam(auto) {
+      if (examSubmitted) return;
+      examSubmitted = true;
+      if (examTimer) clearInterval(examTimer);
+      examTimer = null; examRunning = false;
+      $('timerState').textContent = auto ? 'Hết giờ — bài đã được nộp tự động.' : 'Đã nộp bài. Đối chiếu đáp án bên dưới và tự chấm theo rubric.';
+      $('examSubmit').disabled = true;
+      Array.prototype.forEach.call($('examBody').querySelectorAll('[data-exans]'), function (d) { d.classList.add('show'); });
+      var mi = +$('examSel').value, m = MOCKS[mi];
+      var html = '<div class="card"><h3 style="margin-top:0">Tự chấm theo rubric (khung tham khảo ' + mockTotal(m) + ' điểm)</h3>' +
+        '<p class="mini">Phần khách quan (điền từ, word formation) có thể đối chiếu trực tiếp với đáp án. Phần viết/dịch: cho điểm theo mức độ đúng ý và đúng ngữ pháp — đáp án tham khảo không độc quyền, cách diễn đạt tương đương vẫn được tính.</p>';
+      m.sections.forEach(function (sec) {
+        html += '<div class="secscore"><span style="flex:1;min-width:200px">' + esc(sec.part) + ' · ' + esc(sec.name) + '</span>' +
+          '<label class="mini">Điểm tự chấm <input class="ans mono" type="number" min="0" max="' + secMax(sec) + '" step="0.5" data-secscore="' + sec.key + '" style="width:84px;display:inline-block"> / ' + secMax(sec) + '</label></div>';
+      });
+      html += '<p style="margin:14px 0 4px"><b>Tổng điểm: <span id="examTotal" class="mono">0</span> / ' + mockTotal(m) + '</b> ' +
+        '<button class="btn small" type="button" id="examSaveScore" style="margin-left:8px">Lưu vào lịch sử điểm</button> <span id="examSaveMsg" class="mini"></span></p>' +
+        '<div id="examHistBox"></div>' +
+        '<h3>Chấm AI 5 tiêu chí (phần viết &amp; dịch)</h3>' +
+        '<p class="mini">AI chấm theo: Đủ ý · Ngữ pháp &amp; từ vựng · Dịch sát nghĩa · Viết mạch lạc · Nguy cơ mất điểm. Kết quả AI chỉ mang tính tham khảo để tự sửa bài.</p>' +
+        '<button class="btn ghost" type="button" id="aiGradeBtn">Gửi bài viết/dịch cho AI chấm</button> ' +
+        '<span id="aiGradeMsg" class="mini"></span><div id="aiGradeOut" style="margin-top:10px"></div></div>';
+      $('examResult').innerHTML = html;
+      function updTotal() {
+        var t = 0;
+        Array.prototype.forEach.call($('examResult').querySelectorAll('[data-secscore]'), function (inp) { t += parseFloat(inp.value) || 0; });
+        $('examTotal').textContent = String(t).replace('.', ',');
+        return t;
+      }
+      Array.prototype.forEach.call($('examResult').querySelectorAll('[data-secscore]'), function (inp) { inp.addEventListener('input', updTotal); });
+      function renderHist() {
+        var h = (P.examHist || []).slice().reverse();
+        $('examHistBox').innerHTML = h.length
+          ? '<h4 style="margin:12px 0 4px">Lịch sử điểm thi thử</h4><ul class="hist">' + h.map(function (x) {
+              return '<li>' + esc(x.when) + ' — ' + esc(x.mock) + ': <b>' + esc(x.score) + '</b></li>';
+            }).join('') + '</ul>'
+          : '';
+      }
+      renderHist();
+      $('examSaveScore').addEventListener('click', function () {
+        var t = updTotal();
+        P.examHist = P.examHist || [];
+        P.examHist.push({ when: new Date().toLocaleString('vi-VN'), mock: m.name, score: String(t).replace('.', ',') + ' / ' + mockTotal(m) });
+        if (P.examHist.length > 20) P.examHist = P.examHist.slice(P.examHist.length - 20);
+        save(); renderHist();
+        $('examSaveMsg').textContent = 'Đã lưu.';
+      });
+      $('aiGradeBtn').addEventListener('click', function () { aiGrade(m, mi); });
+    }
+    function collectWriting(m, mi) {
+      var savedAns = (P.examAns && P.examAns['m' + mi]) || {};
+      var parts = [];
+      m.sections.forEach(function (sec) {
+        if (sec.part.indexOf('Writing') < 0) return;
+        sec.groups.forEach(function (g, gi) {
+          g.items.forEach(function (it, ii) {
+            var mine = savedAns[sec.key + '-' + gi + '-' + ii] || '';
+            parts.push('[' + sec.name + '] Câu: ' + it[0] + '\nBài làm: ' + (mine || '(bỏ trống)') + '\nĐáp án tham khảo: ' + it[1]);
+          });
+        });
+      });
+      return parts.join('\n\n');
+    }
+    function aiGrade(m, mi) {
+      var btn = $('aiGradeBtn'), msg = $('aiGradeMsg'), out = $('aiGradeOut');
+      btn.disabled = true; msg.textContent = 'Đang gửi bài cho AI chấm — có thể mất vài chục giây…'; out.innerHTML = '';
+      var prompt = 'Bạn là giám khảo luyện thi tiếng Anh CPA (Chuyên đề 7). Hãy chấm phần Writing của bài thi thử dưới đây theo 5 tiêu chí: (1) Đủ ý, (2) Ngữ pháp & từ vựng, (3) Dịch sát nghĩa, (4) Viết mạch lạc, (5) Nguy cơ mất điểm. Với mỗi tiêu chí: nhận xét ngắn + chỉ ra câu làm tốt và câu cần sửa (trích bài làm). Cuối cùng cho điểm ước lượng trên khung 40 điểm của Part II Writing và 3 việc cần sửa trước nhất. Đáp án tham khảo không độc quyền: cách diễn đạt tương đương đúng ngữ pháp/ngữ nghĩa vẫn cho điểm.\n\n' + collectWriting(m, mi);
+      fetch('/api/ai', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ question: prompt, context: 'Chấm bài thi thử ' + m.name + ' — Tiếng Anh CPA, khung tham khảo 80 điểm.' }) })
+        .then(function (r) { if (!r.ok) throw new Error('http ' + r.status); return r.json(); })
+        .then(function (d) {
+          var txt = d.answer || d.text || d.reply || d.result || '';
+          if (!txt) throw new Error('empty');
+          out.innerHTML = '<div class="refans show"><span class="lbl">Kết quả chấm AI — tham khảo</span><br>' + esc(txt).replace(/\n/g, '<br>') + '</div>';
+          msg.textContent = '';
+        })
+        .catch(function () {
+          msg.innerHTML = 'Chưa kết nối được AI chấm bài (tính năng này chạy trên bản đã triển khai kèm khóa AI). Bạn vẫn có thể tự chấm theo rubric ở trên. <button class="btn ghost small" type="button" id="aiRetry">Thử lại</button>';
+          var r = $('aiRetry'); if (r) r.addEventListener('click', function () { aiGrade(m, mi); });
+        })
+        .then(function () { btn.disabled = false; });
+    }
+    renderExam();
+
+    /* ----- Đề mẫu CD7 ----- */
+    (function renderSample() {
+      var html = '';
+      SAMPLE.forEach(function (sec, si) {
+        html += '<details class="fold"' + (si === 0 ? '' : '') + '><summary>' + esc(sec.name) + '</summary><div class="body">';
+        if (sec.head) html += '<p class="mini" style="margin-top:0">' + esc(sec.head) + '</p>';
+        if (sec.sum) html += '<p style="margin-top:0"><b>Tóm tắt bài đọc:</b> ' + esc(sec.sum) + '</p>';
+        if (sec.quote) html += '<p><b>Trích ngắn:</b> <i>“' + esc(sec.quote) + '”</i></p>';
+        sec.items.forEach(function (it, ii) {
+          var id = 'sm' + si + '-' + ii;
+          html += '<div class="qitem"><div class="qq">' + (ii + 1) + '. ' + esc(it[0]) + '</div>' +
+            '<button class="btn ghost small" type="button" data-smreveal="' + id + '">Xem đáp án mẫu</button>' +
+            '<div class="refans" id="ra-' + id + '"><span class="lbl">Đáp án mẫu chính thức (Phần VII, sách CD7)</span><br>' + esc(it[1]) + '</div></div>';
+        });
+        html += '</div></details>';
+      });
+      html += '<p class="mini">Tổng theo đáp án mẫu: Reading 55 + Writing 45 = 100 điểm. Đây là đáp án mẫu chính thức duy nhất có đầy đủ lời giải; không có đáp án chính thức cho đề thật các năm.</p>';
+      $('sampleBody').innerHTML = html;
+      Array.prototype.forEach.call(document.querySelectorAll('[data-smreveal]'), function (b) {
+        b.addEventListener('click', function () { $('ra-' + b.getAttribute('data-smreveal')).classList.toggle('show'); });
+      });
+    })();
+
+    /* ----- Đề các năm + Nguồn ----- */
+    $('pastRows').innerHTML = PAST.map(function (p) {
+      var link = p[1] ? '<a href="' + esc(p[1]) + '" target="_blank" rel="noopener">' + (p[0] === 2025 ? 'Trang tổng hợp luyenthicpa.com' : 'Thư mục Drive (Gonnapass)') + '</a>' : '—';
+      var status = p[2] ? esc(p[2]) : 'Chưa kiểm tra nội dung từng thư mục; không phân biệt chẵn/lẻ.';
+      return '<tr><td class="mono"><b>' + p[0] + '</b></td><td>' + link + '</td><td>' + status + '</td></tr>';
+    }).join('');
+    $('srcRows').innerHTML = SOURCES.map(function (s, i) {
+      var lab = s[3] === 't26' ? ' <span class="lab t26">Tài liệu 2026</span>' : '';
+      return '<tr><td class="mono">' + (i + 1) + '</td><td><a href="' + esc(s[1]) + '" target="_blank" rel="noopener">' + esc(s[0]) + '</a>' + lab + '</td><td>' + esc(s[2]) + '</td></tr>';
+    }).join('');
+
+    /* ----- Xóa tiến độ ----- */
+    $('clearBtn').addEventListener('click', function () {
+      try { localStorage.removeItem(PKEY); } catch (e) {}
+      P = { topicsDone: {}, planDone: {}, diag: {}, diagAns: {}, walkAns: {}, examAns: {}, examHist: [], fcKnown: {}, readAns: {} };
+      if (sb && sbUser) syncUp();
+      $('clearMsg').textContent = 'Đã xóa — đang tải lại trang…';
+      setTimeout(function () { window.location.reload(); }, 500);
+    });
+
+    /* ============================================================
+       CHAT AI TUTOR — RAG-lite theo chủ điểm + log câu hỏi ẩn danh
+       ============================================================ */
+    function logQuestion(q) {
+      try {
+        var payload = JSON.stringify({ question: q, ts: new Date().toISOString() });
+        if (navigator.sendBeacon) {
+          navigator.sendBeacon('/api/log-question', new Blob([payload], { type: 'application/json' }));
+        } else {
+          fetch('/api/log-question', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: payload, keepalive: true }).catch(function () {});
+        }
+      } catch (e) {}
+    }
+    var RAG = [];
+    GRAMMAR.forEach(function (g, i) {
+      RAG.push({ title: 'Chủ điểm ' + (i + 1) + ' — ' + g.t, kw: norm(g.t) + ' ' + norm(g.rule),
+        ctx: 'Chủ điểm ngữ pháp ' + (i + 1) + ': ' + g.t + '. Quy tắc: ' + g.rule + ' Ví dụ: ' + g.ex.join(' ') });
+    });
+    VOCAB.forEach(function (grp) {
+      RAG.push({ title: 'Từ vựng — ' + grp.g, kw: norm(grp.g) + ' ' + grp.items.map(function (it) { return norm(it[0]); }).join(' '),
+        ctx: 'Nhóm từ vựng ' + grp.g + ': ' + grp.items.map(function (it) { return it[0] + ' = ' + it[1]; }).join('; ') });
+    });
+    READINGS.forEach(function (r, i) {
+      RAG.push({ title: 'Bài đọc ' + (i + 1) + ' — ' + r.title, kw: norm(r.title) + ' doc hieu reading',
+        ctx: r.title + '. Tóm tắt: ' + r.sum + ' Câu hỏi & đáp án tham khảo: ' + r.qs.map(function (q) { return q[0] + ' → ' + q[1]; }).join(' | ') });
+    });
+    RAG.push({ title: 'Tổng quan — lịch thi & thang điểm', kw: 'lich thi thang diem bao nhieu diem dieu kien tong diem ngay thi 80 100 moc exam schedule',
+      ctx: 'Môn Ngoại ngữ CPA 2026: thi Chủ nhật 6/12/2026, 14:00–16:00, viết 120 phút, chỉ Đọc–Viết, trình độ C, chọn 1 trong 5 ngoại ngữ. Theo nguồn thứ cấp: môn điều kiện, không tính vào tổng điểm. Thang điểm có mâu thuẫn chưa giải quyết trong sách CD7 2026: Phần IV ghi 100 điểm, bảng Phần VI cộng 80 điểm, đáp án mẫu Phần VII tính 100 điểm với trọng số khác (Reading 55 + Writing 45). Đề thi thử trên trang dùng khung tham khảo 80 điểm.' });
+    RAG.push({ title: 'Tổng quan — dịch & viết lại câu', kw: 'dich translation viet lai cau transformation guided sentence word formation',
+      ctx: 'Dạng bài Writing: word formation (5 câu), guided sentences (10 câu), sentence transformations (5 câu), translation 2 chiều (10 câu). Nguyên tắc: dịch bám sát nghĩa gốc, giữ thuật ngữ chuyên ngành (audit evidence = bằng chứng kiểm toán, internal control = kiểm soát nội bộ, financial statements = báo cáo tài chính); viết lại câu giữ nguyên nghĩa và dùng đúng từ gợi ý; ONLY AFTER ở đầu câu cần đảo ngữ.' });
+    RAG.push({ title: 'Tổng quan — đề thi thử', kw: 'de thi thu mock de 1 de 2 luyen de 65 cau',
+      ctx: 'Trang có 2 đề thi thử tự biên (không phải đề chính thức), mỗi đề 65 câu, 120 phút, khung tham khảo 80 điểm: Reading 40 (word bank 15 câu, đọc hiểu 2 bài × 5 câu, open cloze 10 câu) + Writing 40 (word formation 5, guided sentences 10, transformations 5, translation 10). Phần đọc hiểu trong đề tự biên dùng câu hỏi tự luận ngắn; đề thật có thể dùng trắc nghiệm — chưa xác minh.' });
+    function ragPick(q) {
+      var nq = ' ' + norm(q) + ' ';
+      var scored = RAG.map(function (r) {
+        var score = 0;
+        r.kw.split(' ').forEach(function (w) { if (w.length >= 3 && (nq.indexOf(' ' + w) >= 0 || nq.indexOf(w + ' ') >= 0)) score++; });
+        return { r: r, s: score };
+      });
+      scored.sort(function (a, b) { return b.s - a.s; });
+      var picked = scored.filter(function (x) { return x.s > 0; }).slice(0, 2).map(function (x) { return x.r; });
+      return picked;
+    }
+    var chatLogged = false, chatBusy = false;
+    function addMsg(cls, text, srcLabel) {
+      var box = $('chatMsgs');
+      var d = document.createElement('div');
+      d.className = 'msg ' + cls;
+      if (srcLabel) { var s = document.createElement('span'); s.className = 'src'; s.textContent = srcLabel; d.appendChild(s); }
+      d.appendChild(document.createTextNode(text));
+      box.appendChild(d); box.scrollTop = box.scrollHeight;
+      return d;
+    }
+    function sendChat(text, retryBtn) {
+      if (chatBusy || !text.trim()) return;
+      chatBusy = true;
+      if (!chatLogged) { logQuestion(text); chatLogged = true; }
+      addMsg('u', text);
+      var picked = ragPick(text);
+      var srcLabel = picked.length ? 'Đang dùng tài liệu: ' + picked.map(function (p) { return p.title; }).join(' · ') : 'Đang dùng tài liệu: tổng quan';
+      var ctx = picked.length ? picked.map(function (p) { return p.ctx; }).join('\n\n') : 'Tổng quan môn Tiếng Anh CPA 2026 (Chuyên đề 7): 15 chủ điểm ngữ pháp, 147 thuật ngữ, đề thi viết 120 phút gồm Reading (word bank, đọc hiểu, cloze) và Writing (word formation, guided sentences, transformations, translation).';
+      var wait = addMsg('a', 'Đang trả lời…', srcLabel);
+      fetch('/api/ai', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ question: text, context: ctx }) })
+        .then(function (r) { if (!r.ok) throw new Error('http ' + r.status); return r.json(); })
+        .then(function (d) {
+          var txt = d.answer || d.text || d.reply || d.result || '';
+          if (!txt) throw new Error('empty');
+          wait.childNodes[wait.childNodes.length - 1].textContent = txt;
+        })
+        .catch(function () {
+          wait.childNodes[wait.childNodes.length - 1].textContent = 'Xin lỗi, AI chưa trả lời được lúc này (tính năng chat chạy trên bản đã triển khai kèm khóa AI). Bạn thử lại sau ít phút nhé.';
+          var b = document.createElement('button');
+          b.className = 'btn ghost small'; b.type = 'button'; b.textContent = 'Thử lại';
+          b.style.marginTop = '8px';
+          b.addEventListener('click', function () { wait.remove(); chatBusy = false; sendChat(text, b); });
+          wait.appendChild(document.createElement('br')); wait.appendChild(b);
+        })
+        .then(function () { chatBusy = false; });
+    }
+    $('chatForm').addEventListener('submit', function (e) {
+      e.preventDefault();
+      var v = $('chatInput').value;
+      if (!v.trim()) return;
+      $('chatInput').value = '';
+      sendChat(v);
+    });
+    $('chatFab').addEventListener('click', function () { $('chatBox').classList.add('open'); $('chatFab').style.display = 'none'; $('chatInput').focus(); });
+    $('chatClose').addEventListener('click', function () { $('chatBox').classList.remove('open'); $('chatFab').style.display = 'block'; });
+    $('chatExpand').addEventListener('click', function () { $('chatBox').classList.toggle('expanded'); });
+    </script>
+  </body>
+</html>
