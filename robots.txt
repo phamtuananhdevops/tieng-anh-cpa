@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://tieng-anh-cpa.vercel.app/sitemap.xml
